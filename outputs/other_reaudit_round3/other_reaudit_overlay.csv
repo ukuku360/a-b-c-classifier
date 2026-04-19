@@ -1,0 +1,466 @@
+row_id,label_main,flag_mixed_ab,flag_needs_context,c_subtype,annotator,label_version,note
+1,OTHER,0,0,background,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Filing status background
+3,OTHER,0,0,status,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Status of amended filing and remediation belief
+6,OTHER,0,0,effect,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,No misstatement and no prior result change.
+7,REMEDIATION,0,0,other,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Concrete measures are being implemented.
+9,OTHER,0,0,effect,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Describes the expected effect of prior actions.
+10,OTHER,0,0,status,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Remediation is contingent on future testing.
+11,OTHER,0,0,status,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Forward completion estimate only.
+12,OTHER,0,0,background,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Generic no-change disclosure.
+13,OTHER,0,0,background,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Generic control-definition language; not an issue.
+19,OTHER,0,0,attestation,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Auditor opinion mention in report; attestation context.
+20,OTHER,0,1,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Remediation-plan intro without concrete action.
+25,OTHER,0,0,status,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Status-only timing statement; no concrete remediation action.
+29,OTHER,0,1,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Section-header fragment; needs prior context.
+38,OTHER,0,0,background,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Accounting-policy/background statement.
+44,OTHER,0,0,background,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,ICFR evaluation and COSO framework background
+45,OTHER,0,0,status,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Evaluation mentions prior weaknesses and testing but no concrete action
+46,OTHER,0,0,status,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Outcome only: management says the weakness was fully remedied
+47,OTHER,0,0,status,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Effect/status only about prior remedial actions
+48,OTHER,0,1,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Reference to actions described in prior filings
+57,OTHER,0,0,status,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Status only on prior remediation actions
+62,REMEDIATION,0,0,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Concrete planned remediation actions are stated
+67,OTHER,0,0,status,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Status only: remediation is believed complete but testing is unfinished
+69,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,neutral ICFR responsibility disclosure
+70,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,management evaluation of ICFR using COSO; report background
+81,OTHER,0,0,attestation,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Auditor report statement.
+85,OTHER,0,1,other,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Remediation plan header fragment
+86,REMEDIATION,0,0,other,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Concrete remediation plan development
+87,OTHER,0,0,status,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Introductory remediation status statement
+94,OTHER,0,0,background,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,independent review and delayed filing are background context
+101,OTHER,0,0,effect,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,revenue recognized and no accrual is outcome only
+103,OTHER,0,0,effect,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,accrual and remote likelihood are outcome only
+104,OTHER,0,0,attestation,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,management and audit committee conclusion is attestation
+113,OTHER,0,0,status,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,remediation timing and completion criteria are status only
+114,OTHER,0,0,status,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,completion timing unknown is status only
+117,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Remediation status and lead-in only.
+118,ISSUE,0,0,other,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,States the material weaknesses continue to be present.
+119,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Status report only.
+121,ISSUE,0,0,other,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,States the material weaknesses directly.
+130,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Priority/status statement only.
+132,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Remediation timing/status only.
+136,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Completed remediation summary only.
+158,OTHER,0,0,background,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,No-change disclosure background.
+165,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,acquired subsidiary excluded from assessment.
+170,OTHER,0,0,attestation,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,auditor report and attestation.
+171,ISSUE,0,0,other,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,identified material weakness in the section intro.
+173,REMEDIATION,0,0,other,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,completed documentation and testing of corrective actions.
+174,OTHER,0,0,background,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,no significant changes disclosed.
+177,REMEDIATION,0,0,other,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,completed risk assessment and control design.
+178,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,additional steps only suggested.
+182,OTHER,0,0,effect,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Effect-only statement before issuance.
+183,OTHER,0,0,background,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Neutral disclosure about the excluded subsidiary.
+184,OTHER,0,0,background,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Subsidiary size and revenue context only.
+185,OTHER,0,0,status,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Lead-in remediation status without a concrete step.
+188,OTHER,0,0,status,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Remediation remains unconfirmed until testing is complete.
+191,OTHER,0,0,attestation,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,auditor opinion on ICFR
+195,OTHER,0,0,effect,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,States the accounting result/effect of the practice.
+197,OTHER,0,1,other,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Fragmentary lead-in; context is incomplete.
+203,OTHER,0,1,other,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Citation or section title fragment
+207,ISSUE,0,0,other,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Restatement caused by material weakness
+208,OTHER,0,0,attestation,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Audit report attestation language
+226,OTHER,0,1,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Fragmented continuation of an issue sentence.
+240,OTHER,0,0,attestation,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Auditor report / attestation mention.
+241,OTHER,0,0,background,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,evaluation status/background only; no weakness or action.
+243,OTHER,0,0,attestation,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,auditor report mention; not an issue/remediation statement.
+249,REMEDIATION,0,0,other,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,concrete monthly review step = remediation.
+250,REMEDIATION,0,0,other,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,implemented controls described as remediating the weakness.
+252,OTHER,0,0,status,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Disclosure/status statement with no concrete issue or action.
+253,OTHER,0,0,background,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Generic control framework background.
+257,OTHER,0,1,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Fragment citation tail needing prior context.
+260,OTHER,0,1,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Fragment citation tail needing prior context.
+261,OTHER,0,1,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Fragment citation tail needing prior context.
+263,REMEDIATION,0,0,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Concrete corrective changes were initiated.
+271,OTHER,0,0,status,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Progress update without a fully effective control yet.
+275,OTHER,0,0,status,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,No material changes statement with a remediation cross-reference.
+276,OTHER,0,0,attestation,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Auditor attestation report reference.
+278,OTHER,0,0,background,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,generic ICFR framework/background
+282,OTHER,0,1,other,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,fragment lead-in with no standalone content
+288,REMEDIATION,0,0,other,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,developed remediation plan and thorough review are concrete remediation
+291,OTHER,0,0,effect,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,measures are described as planned or implemented and only effect is stated
+295,OTHER,0,0,background,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Signature line; non-substantive.
+296,OTHER,0,0,background,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Signature line; non-substantive.
+297,OTHER,0,0,background,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Factual background about acquired operations
+298,OTHER,0,0,background,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Scope exclusion disclosure as background
+299,OTHER,0,0,background,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Neutral size disclosure for dpw
+300,OTHER,0,0,background,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Neutral size disclosure for belos
+312,OTHER,0,0,attestation,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Audit report and adverse opinion attestation
+318,OTHER,0,1,other,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,lead-in announcing conclusions that follow
+322,OTHER,0,0,attestation,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,auditor report reference
+324,OTHER,0,0,status,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,no-change disclosure for the quarter
+326,OTHER,0,0,background,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Generic COSO framework reference.
+328,OTHER,0,1,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Lead-in to listed control improvements.
+344,OTHER,0,0,status,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Remediation progress only.
+345,OTHER,0,0,status,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Expected continuation of remediation.
+346,OTHER,0,0,attestation,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Audit report mention only.
+347,OTHER,0,0,background,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Report location statement.
+349,OTHER,0,0,background,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Neutral scope/background disclosure
+350,OTHER,0,0,background,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Neutral acquisition disclosure
+352,OTHER,0,0,attestation,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Auditor attestation report
+353,OTHER,0,1,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Pointer to report below
+365,OTHER,0,0,background,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,acquisition disclosure background.
+366,OTHER,0,1,other,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,fragment only; needs prior text.
+367,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,excluded acquisition from assessment due to impracticality.
+368,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,scope exclusion status only.
+375,OTHER,0,0,attestation,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,audit report on ICFR.
+376,REMEDIATION,0,0,other,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,completed substantive procedures as a concrete remedial step.
+377,OTHER,0,0,effect,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,management belief on financial statement preparation.
+378,OTHER,0,0,attestation,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,management certification of fair presentation.
+379,OTHER,0,0,attestation,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,auditor opinion statement.
+380,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,status-only remediation progress.
+382,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,remediation progress; no concrete new action.
+383,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,status until testing confirms effectiveness.
+384,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,commitment without concrete action.
+388,REMEDIATION,0,0,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Concrete remediation action: new controls were designed and implemented.
+392,OTHER,0,0,status,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,"Describes remediation completion criteria, not a new action."
+393,OTHER,0,0,background,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Neutral ICFR assessment background.
+396,OTHER,0,0,status,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Progress/status line without a concrete action.
+400,OTHER,0,0,status,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Future completion timing only.
+416,OTHER,0,0,effect,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Fair-presentation / outcome-only statement.
+417,OTHER,0,1,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Table-of-contents fragment; needs context.
+418,REMEDIATION,0,0,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Concrete remediation action: created and commenced a plan.
+436,OTHER,0,0,background,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Topic header / section label.
+441,REMEDIATION,0,0,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Concrete future action to consolidate platforms.
+457,REMEDIATION,0,0,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Concrete ongoing improvement action.
+459,OTHER,0,0,background,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,assessment framework/status statement.
+461,OTHER,0,0,background,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,operational background for the weakness.
+462,OTHER,0,0,background,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,value/volume context only.
+467,OTHER,0,0,attestation,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,attestation report mention.
+468,OTHER,0,0,status,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,no-change status.
+469,OTHER,0,1,other,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,fragment header for remediation plan.
+480,OTHER,0,1,other,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,fragmentary bullet text without standalone claim
+482,OTHER,0,0,background,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Generic ICFR responsibility statement.
+483,OTHER,0,0,background,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Framework/background for the ICFR evaluation.
+488,OTHER,0,0,attestation,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,References the adverse auditors report.
+489,OTHER,0,0,background,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,General control-posture statement.
+490,REMEDIATION,0,0,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Concrete remediation action: a remediation plan was developed and is being implemented.
+491,REMEDIATION,0,0,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Concrete compensating procedure: additional procedures will continue.
+492,OTHER,0,1,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Lead-in announcing actions below; no concrete action in this sentence.
+495,OTHER,0,0,status,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Describes a remediation validation requirement rather than a new fix.
+496,OTHER,0,0,status,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Ongoing remediation/status statement with possible additional measures.
+497,OTHER,0,0,status,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,No-change status statement for ICFR during the period.
+514,OTHER,0,1,other,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,section header/lead-in to remediation plan.
+515,OTHER,0,0,status,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,remediation progress/status only.
+523,OTHER,0,0,status,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,no-change status with remediation reference.
+527,OTHER,0,0,attestation,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,independent auditor attestation.
+528,OTHER,0,0,status,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,no-change status statement with a below reference.
+530,REMEDIATION,0,0,other,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,concrete internal review step tied to remediation.
+532,OTHER,0,1,other,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,cross-reference/see-note only.
+535,OTHER,0,0,background,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,warrant agreement detail is background to the weakness.
+540,OTHER,0,0,background,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Generic assurance definition.
+541,OTHER,0,0,background,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,COSO framework background.
+544,OTHER,0,0,effect,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Outcome/effect of remediation efforts.
+548,OTHER,0,0,attestation,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Lead-in to the report below.
+549,OTHER,0,0,background,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Procedural assessment background.
+560,OTHER,0,0,effect,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Fairly-present / no-impact style effect statement.
+568,OTHER,0,0,effect,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,describes consequence of the activities
+573,OTHER,0,0,effect,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,reports the financial statement effect of the adjustments
+575,OTHER,0,1,other,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,fragmentary header for later remediation discussion
+576,REMEDIATION,0,0,other,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,began taking steps to remediate the weakness
+581,OTHER,0,0,status,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,remediation progress only; no concrete action
+591,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,management opinion that ICFR is sufficient; not an issue or remediation
+599,OTHER,0,0,attestation,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,explicit attestation report reference
+600,OTHER,0,1,other,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,truncated item reference / header fragment
+601,OTHER,0,0,attestation,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,unqualified audit opinion mention
+604,OTHER,0,0,background,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Report location statement.
+606,OTHER,0,0,status,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,"Progress summary, not a specific action."
+607,OTHER,0,1,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Fragmented action-list heading.
+609,OTHER,0,0,status,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Personnel update/status only.
+610,OTHER,0,0,status,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Staffing continuity/status only.
+617,OTHER,0,1,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Fragmented lead-in to planned actions.
+636,OTHER,0,0,attestation,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,References an adverse auditors report.
+637,OTHER,0,0,status,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,No other ICFR changes; status-only statement.
+638,OTHER,0,1,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Lead-in to remediation actions below; no concrete action yet.
+648,OTHER,0,1,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Lead-in to explanatory note; not a standalone issue/remediation statement.
+649,OTHER,0,0,effect,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Effect-only no-impact statement about the previously reported information.
+650,OTHER,0,0,effect,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Effect-only no-impact statement about the restatement impact.
+651,OTHER,0,0,background,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Generic management responsibility/background.
+653,OTHER,0,0,background,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Acquisition exclusion/background context.
+654,OTHER,0,0,background,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Neutral disclosure of included results.
+655,OTHER,0,0,effect,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Reports excluded revenue share.
+656,OTHER,0,0,effect,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Reports excluded asset share.
+657,REMEDIATION,0,0,other,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Began implementing a remediation plan.
+660,OTHER,0,0,status,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Goal/timeline only; no new concrete action.
+664,OTHER,0,0,status,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Goal/timeline only; no new concrete action.
+665,OTHER,0,0,background,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Acquisition/change disclosure context.
+667,OTHER,0,0,status,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Progress/status only; no concrete action stated.
+668,OTHER,0,0,background,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Company name only; background header.
+677,OTHER,0,0,status,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Describes ongoing status of the weakness until testing is complete.
+678,ISSUE,0,0,other,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,"Although phrased as a section header, it explicitly identifies a material weakness."
+682,OTHER,0,0,status,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,States the weakness has been remediated; status/result only.
+683,OTHER,0,0,background,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Company name only; background header.
+684,OTHER,0,0,status,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,No changes disclosure with remediation carve-out; status-only statement.
+685,OTHER,0,1,status,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,lead-in status with no substantive details
+690,OTHER,0,0,status,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,status only no concrete action
+691,REMEDIATION,0,0,other,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,concrete third party and control implementation action
+693,OTHER,0,0,status,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,ongoing progress status
+694,OTHER,0,0,status,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,remediation timing status
+695,OTHER,0,0,effect,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,no change disclosure
+696,ISSUE,0,0,other,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Direct material weakness identification; issue statement.
+700,OTHER,0,0,attestation,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Auditor adverse opinion is attestation content.
+701,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Only points to the auditor report location.
+702,REMEDIATION,0,0,other,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,States immediate action to fully remediate the weakness.
+703,OTHER,0,0,status,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Lists remediation efforts and gives no concrete action.
+707,OTHER,0,0,effect,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Reports no additional ICFR changes beyond the weakness identified above.
+709,OTHER,0,0,background,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,General limitation/background statement.
+711,OTHER,0,0,background,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Assessment scope/background.
+712,OTHER,0,0,background,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Background on assessment exclusion.
+719,OTHER,0,1,other,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Fragment/topic phrase; needs context.
+720,OTHER,0,0,attestation,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Auditor attestation statement.
+721,OTHER,0,0,status,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Historical conclusion of effectiveness.
+726,OTHER,0,1,other,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Lead-in to a remediation list.
+730,REMEDIATION,0,0,other,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Concrete remediation action and completion statement.
+731,OTHER,0,0,background,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,scope/exclusion background only.
+732,OTHER,0,0,background,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,size/disclosure context only.
+737,OTHER,0,1,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Section header fragment
+741,OTHER,0,1,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Section header fragment
+743,OTHER,0,1,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Fragment header with no standalone claim
+747,OTHER,0,1,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Fragment header naming an issue area
+751,OTHER,0,1,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Section header fragment
+753,OTHER,0,0,attestation,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Auditor report and attestation reference
+754,ISSUE,0,0,other,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,identified material weakness = issue.
+759,OTHER,0,1,other,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,fragmentary phrase needs surrounding text
+761,OTHER,0,0,attestation,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,auditor report reference
+764,OTHER,0,0,status,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Management commitment and progress only.
+765,OTHER,0,0,attestation,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Auditor report describing the material weaknesses.
+766,OTHER,0,0,background,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,management ICFR description and framework background.
+767,OTHER,0,0,background,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,control evaluation framework background.
+771,OTHER,0,0,status,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,remediation still in process; disclosure remains in place.
+772,OTHER,0,0,effect,codex_other_worker_batch_005,guideline_v1_1_other_reaudit_round3,evaluation result only; reports no ineffective controls.
+776,OTHER,0,1,other,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Fragment ends mid-thought and needs context.
+782,OTHER,0,0,background,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Standard no-change disclosure.
+783,OTHER,0,0,background,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Neutral management report / criteria statement.
+784,ISSUE,0,0,other,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Introduces identified material weaknesses.
+787,REMEDIATION,0,0,other,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Concrete remediation actions are stated despite trailing status language.
+788,OTHER,0,0,status,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,"Describes remediation-conclusion criteria, not an action."
+789,OTHER,0,1,other,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Lead-in to the action list below.
+790,OTHER,0,1,other,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Table-of-contents fragment with no standalone statement.
+794,OTHER,0,1,other,codex_other_worker_batch_022,guideline_v1_1_other_reaudit_round3,Section fragment only.
+804,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,scope exclusion and report title disclosure
+805,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,size disclosure about excluded subsidiary
+810,OTHER,0,1,other,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,"heading fragment, not a concrete remediation action"
+820,OTHER,0,0,background,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Background disclosure about an acquired business.
+821,OTHER,0,0,effect,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Quantifies the related asset and revenue impact.
+822,OTHER,0,0,attestation,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Auditor adverse opinion statement.
+823,OTHER,0,0,background,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Report location cross-reference.
+824,REMEDIATION,0,0,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Concrete remediation plan with implementing changes.
+828,OTHER,0,0,background,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,"Generic framework definition, not an issue or remediation."
+833,OTHER,0,0,status,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Reports the effectiveness/status of the added procedures.
+838,OTHER,0,1,other,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,"Section header/fragment, not a standalone statement."
+841,REMEDIATION,0,0,other,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Concrete remediation-plan action.
+856,OTHER,0,0,background,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Generic ICFR responsibility/framework background.
+862,OTHER,0,1,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Signature/name fragment.
+863,OTHER,0,1,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Title fragment from a signature block.
+864,OTHER,0,1,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Signature/name fragment.
+865,OTHER,0,1,other,codex_other_worker_batch_001,guideline_v1_1_other_reaudit_round3,Title fragment from a signature block.
+869,OTHER,0,0,attestation,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,auditor attestation report.
+870,OTHER,0,0,attestation,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,report location reference.
+872,OTHER,0,0,status,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,implementation underway but still non-specific.
+874,OTHER,0,0,status,codex_other_worker_batch_016,guideline_v1_1_other_reaudit_round3,no change except above status.
+875,OTHER,0,0,background,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,generic ICFR management report intro
+876,OTHER,0,0,background,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,generic ICFR definition framework text
+877,OTHER,0,0,status,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,management assessment of ICFR effectiveness status only
+884,OTHER,0,0,status,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,progress in remediation plan only
+887,OTHER,0,0,status,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,remediation not complete until controls are implemented and tested
+888,OTHER,0,0,status,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,ongoing remediation progress only
+889,OTHER,0,1,other,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,lead in announcing actions to follow
+904,ISSUE,0,0,other,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Describes control deficiencies and material misstatement risk.
+905,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Only points to the auditor report location.
+906,OTHER,0,0,status,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Describes ongoing remediation efforts and progress.
+908,OTHER,0,0,status,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,"Reports remediation activity and ongoing status, not a new action item."
+914,REMEDIATION,0,0,other,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Concrete monitoring and evaluation actions are stated.
+915,REMEDIATION,0,0,other,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Concrete recurring reporting action is stated.
+916,OTHER,0,0,background,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Framework criteria background only.
+931,OTHER,0,0,status,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Commitment statement without a concrete action.
+933,REMEDIATION,0,0,other,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Enhanced the previous remediation plan.
+934,REMEDIATION,0,0,other,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Updated plan addresses the deficiencies.
+935,OTHER,0,1,other,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Lead-in to a remediation list.
+940,REMEDIATION,0,0,other,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Concrete assisting resources are being engaged.
+944,OTHER,0,0,status,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Condition for remediated status only.
+950,OTHER,0,0,attestation,codex_other_worker_batch_019,guideline_v1_1_other_reaudit_round3,Auditor attestation statement.
+951,OTHER,0,0,background,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,generic ICFR definition
+956,OTHER,0,0,attestation,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,auditor opinion on ICFR
+957,OTHER,0,0,attestation,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,auditor report location only
+958,ISSUE,0,0,other,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,states weaknesses were not remediated and controls were inadequate
+960,OTHER,0,0,status,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,status only; no concrete remediation action
+961,REMEDIATION,0,0,other,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,monitoring and plan changes are concrete actions
+966,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,acquisition disclosure
+968,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,revenue share disclosure for the acquired business
+969,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,asset share disclosure for the acquired business
+970,OTHER,0,0,attestation,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,auditor attestation on ICFR effectiveness
+977,OTHER,0,0,status,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,no assurance until testing is complete; remediation status only
+978,OTHER,0,1,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Fragmented note/header; no standalone signal.
+979,OTHER,0,1,other,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Fragmented note/header; no standalone signal.
+980,OTHER,0,0,background,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Tax-provision background statement.
+982,OTHER,0,0,attestation,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Independent auditor attestation report mention.
+988,OTHER,0,0,attestation,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,adverse audit report is attestation
+989,OTHER,0,0,status,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,period has no changes status only
+997,REMEDIATION,0,0,other,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,initiating a China internal control committee is a concrete corrective action
+999,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,describes the committees reporting line
+1007,REMEDIATION,0,0,other,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,assigning primary responsibility for US GAAP reporting is a concrete control action
+1012,OTHER,0,0,status,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,no-change disclosure for ICFR; status only
+1014,OTHER,0,0,status,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,no changes reported beyond the committee; status only
+1015,OTHER,0,0,status,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,no other changes reported; status only
+1016,OTHER,0,0,background,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Definition and background only.
+1018,ISSUE,0,0,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Issue statement: identified material weaknesses.
+1022,OTHER,0,0,attestation,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Auditor attestation only.
+1026,OTHER,0,0,status,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Status only; says remediation was completed.
+1028,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1033,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1037,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Fragmentary topic label; context needed.
+1039,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1044,ISSUE,0,0,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Completes the issue about ineffective controls over U.S. GAAP.
+1045,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1047,REMEDIATION,0,0,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Completes a concrete implemented control.
+1048,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Standalone fragment with no clear action.
+1050,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1051,REMEDIATION,0,0,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Concrete implemented control.
+1055,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1059,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1064,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1067,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Fragmentary topic label; context needed.
+1070,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1073,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1075,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Fragmentary topic label; context needed.
+1081,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1086,OTHER,0,1,other,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation items.
+1090,OTHER,0,0,effect,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Outcome only from remediation progress.
+1091,OTHER,0,0,status,codex_other_worker_batch_014,guideline_v1_1_other_reaudit_round3,Status only; remediation still in progress.
+1093,REMEDIATION,0,0,other,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,"Concrete control strengthening action, so this is remediation."
+1094,REMEDIATION,0,0,other,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,Concrete implementation plan to remediate the weaknesses.
+1095,OTHER,0,1,other,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,Lead-in to listed actions; standalone meaning is incomplete.
+1098,OTHER,0,0,background,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,"Section heading fragment, not a substantive statement."
+1107,OTHER,0,0,background,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,"Section heading fragment, not a standalone claim."
+1108,REMEDIATION,0,0,other,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,"Concrete assessment/review step, so this is remediation."
+1115,OTHER,0,0,status,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,Future-looking progress/status without a concrete action.
+1118,OTHER,0,1,other,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,Truncated cross-reference fragment; standalone meaning is incomplete.
+1119,OTHER,0,0,status,codex_other_worker_batch_015,guideline_v1_1_other_reaudit_round3,Status-only statement that the weaknesses are not fully remediated yet.
+1120,OTHER,0,0,background,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,generic background disclosure only
+1121,OTHER,0,0,background,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,generic framework background only
+1122,OTHER,0,0,background,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,SEC guidance disclosure only
+1123,OTHER,0,0,background,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,acquisition context only
+1124,OTHER,0,0,background,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,factual significance disclosure only
+1127,OTHER,0,0,effect,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,testing result only
+1129,OTHER,0,0,attestation,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,auditor opinion disclosure
+1130,OTHER,0,0,attestation,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,audited report reference
+1132,OTHER,0,0,background,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,background only no concrete action
+1133,OTHER,0,0,status,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,progress only no concrete action
+1134,OTHER,0,0,status,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,remediation timing status
+1136,OTHER,0,0,status,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,remediation success disclaimer
+1138,REMEDIATION,0,0,other,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,concrete reporting action
+1139,OTHER,0,0,background,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,unrelated background disclosure
+1140,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Generic ICFR framework description.
+1145,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Defines the assessment criteria and material weakness framework.
+1146,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Discloses exclusions from management's assessment.
+1147,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Neutral disclosure of included operating results.
+1148,OTHER,0,0,effect,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Reports revenue and loss contribution amounts.
+1149,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Neutral asset disclosure.
+1150,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Neutral disclosure of included operating results.
+1151,OTHER,0,0,effect,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Reports revenue and loss contribution amounts.
+1152,OTHER,0,0,background,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,Neutral asset disclosure.
+1153,OTHER,0,0,attestation,codex_other_worker_batch_002,guideline_v1_1_other_reaudit_round3,States the attestation report and opinions.
+1170,OTHER,0,1,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Fragment header with no standalone meaning.
+1176,OTHER,0,0,attestation,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Independent auditor attest report.
+1177,OTHER,0,0,status,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Historical remediation reporting only.
+1178,OTHER,0,0,status,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,No additional changes statement with known weakness exception.
+1180,REMEDIATION,0,0,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Future remediation plan with concrete actions.
+1181,OTHER,0,1,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Fragment heading with no standalone meaning.
+1182,OTHER,0,0,status,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Implementation progress without sufficient time to be effective.
+1183,REMEDIATION,0,0,other,codex_other_worker_batch_011,guideline_v1_1_other_reaudit_round3,Future additional measures plan.
+1223,OTHER,0,0,background,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,scope exclusion disclosure for acquired business controls
+1227,OTHER,0,0,effect,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,effect only statement about possible further adjustments
+1228,OTHER,0,1,other,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,remediation intro and future plan only
+1229,OTHER,0,1,other,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,lead in to listed remediation actions
+1234,OTHER,0,0,effect,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,effectiveness statement rather than an action
+1235,OTHER,0,0,status,codex_other_worker_batch_013,guideline_v1_1_other_reaudit_round3,remediation status until steps are fully implemented
+1236,OTHER,0,0,background,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Neutral framework/assessment statement; not issue or remediation.
+1255,OTHER,0,0,attestation,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Mentions included auditor reports; report/attestation reference only.
+1262,OTHER,0,0,status,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Describes remediation progress and uncertainty without a concrete new action.
+1263,ISSUE,0,0,other,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,"Identifies material weaknesses, so the sentence is issue-focused."
+1264,REMEDIATION,0,0,other,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,States that management made changes and remediated weaknesses; concrete remediation action.
+1267,OTHER,0,0,other,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Standalone bullet fragment with no usable substantive content.
+1270,OTHER,0,0,effect,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Reports the outcome that no operating deficiencies were found.
+1271,OTHER,0,0,other,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Standalone bullet fragment with no substantive statement.
+1279,OTHER,0,0,background,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,standard management report boilerplate
+1280,OTHER,0,0,background,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,generic ICFR definition
+1285,OTHER,0,0,background,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,acquisition context only
+1286,OTHER,0,0,background,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,scope exclusion for new acquisition
+1287,OTHER,0,0,status,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,no-change disclosure with material weakness exception
+1288,OTHER,0,1,other,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,header announcing remediation steps below
+1297,OTHER,0,0,status,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,remediation not complete until testing supports effectiveness
+1298,OTHER,0,0,status,codex_other_worker_batch_017,guideline_v1_1_other_reaudit_round3,no-change disclosure for the quarter
+1300,REMEDIATION,0,0,other,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Concrete remediation step: outside counsel investigation.
+1312,OTHER,0,0,status,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Process/status only; remediation still underway.
+1313,OTHER,0,0,status,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Condition/status before full remediation.
+1314,OTHER,0,1,other,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Lead-in to the remediation list.
+1317,OTHER,0,0,background,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Generic COSO/reporting framework background.
+1320,OTHER,0,0,status,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Partial completion / in-process remediation status.
+1321,OTHER,0,0,effect,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Describes the effect of remediation timing on management's conclusion.
+1322,ISSUE,0,0,other,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Directly states material weaknesses continued to exist.
+1325,OTHER,0,0,attestation,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Auditor attestation/report statement.
+1328,OTHER,0,0,attestation,codex_other_worker_batch_009,guideline_v1_1_other_reaudit_round3,Pointer to the auditor disclaimer/report.
+1332,OTHER,0,0,background,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,background context only
+1335,REMEDIATION,0,0,other,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,ceasing use of the errored application is concrete remediation
+1354,OTHER,0,0,background,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,prior disclosure history only
+1355,REMEDIATION,0,0,other,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,implemented corrective measures is concrete remediation
+1358,REMEDIATION,0,0,other,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,monthly financial meetings are a concrete remediation step
+1360,OTHER,0,0,status,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,status only no concrete action
+1363,REMEDIATION,0,0,other,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,constructing the stockroom is a concrete remediation plan
+1365,OTHER,0,0,status,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,conditional future step only no concrete action
+1369,OTHER,0,1,other,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Section heading fragment
+1379,REMEDIATION,0,0,other,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Sentence states concrete remediation action
+1381,OTHER,0,1,other,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Section heading fragment
+1405,OTHER,0,0,background,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Neutral ICFR framework assessment statement.
+1409,OTHER,0,0,attestation,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Auditor adverse opinion reference; attestation content.
+1410,OTHER,0,1,other,codex_other_worker_batch_020,guideline_v1_1_other_reaudit_round3,Lead-in to preliminary steps; concrete remediation steps are not yet stated.
+1414,OTHER,0,0,status,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Scope exclusion status disclosure
+1420,OTHER,0,0,background,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Acquisition background only
+1421,OTHER,0,0,background,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,SEC rule background on acquired entity controls
+1425,OTHER,0,1,other,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Lead-in to steps described below
+1433,OTHER,0,0,status,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Timing/status of the remediation plan
+1434,OTHER,0,0,status,codex_other_worker_batch_010,guideline_v1_1_other_reaudit_round3,Remediation is contingent on future testing
+1439,REMEDIATION,0,0,other,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,concrete remediation action
+1440,OTHER,0,1,other,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,section lead-in to actions below
+1445,OTHER,0,0,effect,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,outcome statement only
+1447,OTHER,0,0,attestation,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,attestation report reference
+1448,OTHER,0,0,effect,codex_other_worker_batch_021,guideline_v1_1_other_reaudit_round3,no change disclosure
+1460,OTHER,0,0,background,codex_other_worker_batch_012,guideline_v1_1_other_reaudit_round3,Report pointer / non-substantive statement.
+1465,OTHER,0,1,other,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Remediation activities header fragment
+1469,OTHER,0,0,effect,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Effect only statement about expected improvement
+1471,OTHER,0,0,effect,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Effect only statement about likely impact
+1472,OTHER,0,0,background,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Standard controls and procedures disclosure
+1473,OTHER,0,0,status,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,Remediation progress statement
+1474,OTHER,0,0,status,codex_other_worker_batch_003,guideline_v1_1_other_reaudit_round3,No new actions beyond outlined remediation initiatives
+1475,OTHER,0,0,background,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,COSO evaluation is framework background
+1479,REMEDIATION,0,0,other,codex_other_worker_batch_008,guideline_v1_1_other_reaudit_round3,identified enhancements to remediate the weakness
+1485,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,background acquisition disclosure
+1486,OTHER,0,0,status,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,reports the scope exclusion from managements assessment
+1487,OTHER,0,0,background,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,size and revenue disclosure for the acquired business
+1509,OTHER,0,1,other,codex_other_worker_batch_006,guideline_v1_1_other_reaudit_round3,section heading fragment announcing remedial actions
+1518,OTHER,0,0,background,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,General annual-report scope/background.
+1519,OTHER,0,0,background,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Neutral disclosure-controls evaluation.
+1522,OTHER,0,0,attestation,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Auditor attestation only.
+1523,OTHER,0,0,attestation,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Attestation report only.
+1524,ISSUE,0,0,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Identifies material weaknesses.
+1534,OTHER,0,1,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Fragment naming a person.
+1537,OTHER,0,1,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Fragmented audit-committee sentence.
+1539,OTHER,0,1,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Fragment lacks full finding context.
+1541,OTHER,0,1,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Fragmented investigation sentence.
+1543,OTHER,0,0,status,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Status-only remediation progress.
+1545,OTHER,0,1,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Lead-in fragment for remediation details.
+1547,REMEDIATION,0,0,other,codex_other_worker_batch_004,guideline_v1_1_other_reaudit_round3,Concrete control action: banned travel advances.
+1553,OTHER,0,0,background,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Prior disclosure background only.
+1556,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Remediation status and lead-in only.
+1557,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Status report only.
+1561,ISSUE,0,0,other,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,States the control deficiencies constitute material weaknesses.
+1572,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Priority/status statement only.
+1574,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Remediation timing/status only.
+1598,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Completed remediation with residual timing status.
+1600,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Completed remediation summary only.
+1614,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Completed remediation summary only.
+1620,OTHER,0,0,status,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Completed remediation summary only.
+1626,OTHER,0,0,background,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,No-change disclosure/background.
+1627,OTHER,0,0,background,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,SEC exclusion/background context.
+1628,OTHER,0,0,status,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Ongoing evaluation/status-only.
+1629,OTHER,0,0,effect,codex_other_worker_batch_007,guideline_v1_1_other_reaudit_round3,Reports the exclusion effect from the acquisition.
+1636,OTHER,0,0,attestation,codex_other_worker_batch_018,guideline_v1_1_other_reaudit_round3,Adverse opinion attestation.

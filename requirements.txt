@@ -1,0 +1,6 @@
+pandas>=2.2
+numpy>=2.2
+scikit-learn>=1.8
+torch>=2.0
+transformers>=4.57
+openpyxl>=3.1

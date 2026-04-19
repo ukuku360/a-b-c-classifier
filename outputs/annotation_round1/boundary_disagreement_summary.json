@@ -1,0 +1,19 @@
+{
+  "boundary_rows": 50,
+  "disagreement_rows": 12,
+  "disagreement_rate": 0.24,
+  "disagreement_types": {
+    "ISSUE->OTHER": 11,
+    "OTHER->ISSUE": 1
+  },
+  "pass1_label_counts": {
+    "ISSUE": 101,
+    "OTHER": 50,
+    "REMEDIATION": 49
+  },
+  "pass2_label_counts": {
+    "ISSUE": 30,
+    "OTHER": 13,
+    "REMEDIATION": 7
+  }
+}

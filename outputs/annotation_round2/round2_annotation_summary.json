@@ -1,0 +1,23 @@
+{
+  "stage_a_rows": 50,
+  "double_check_rows": 30,
+  "double_check_disagreement_rows": 6,
+  "double_check_disagreement_rate": 0.2,
+  "disagreement_bucket_counts": {
+    "REMEDIATION_vs_OTHER_intro_status": 2,
+    "ISSUE_vs_OTHER_effect_status": 2,
+    "true_needs_context": 2
+  },
+  "stage_b_rows": 50,
+  "round2_final_rows": 100,
+  "round2_label_counts": {
+    "OTHER": 44,
+    "ISSUE": 32,
+    "REMEDIATION": 24
+  },
+  "round2_flag_counts": {
+    "mixed_AB": 1,
+    "needs_context": 12
+  },
+  "master_rows_after_merge": 300
+}

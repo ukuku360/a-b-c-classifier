@@ -1,0 +1,70 @@
+{
+  "winner": "e5_logreg",
+  "criteria": {
+    "macro_f1_vs_centroid_plus_5pt": {
+      "passed": false,
+      "winner_cv_macro_f1": 0.7642469726424697,
+      "centroid_cv_macro_f1": 0.7675904252084247
+    },
+    "validation_auto_precision_issue_remediation_gte_0_90": {
+      "passed": true,
+      "auto_precision_issue": 0.9111111111111111,
+      "auto_precision_remediation": 0.9230769230769231
+    },
+    "review_queue_target_cases_gte_0_60": {
+      "passed": true,
+      "target_review_case_rate": 0.6,
+      "bucket_counts": {
+        "ambiguous": 15,
+        "needs_context": 15,
+        "clear_remediation": 10,
+        "clear_background": 6,
+        "clear_issue": 4
+      }
+    },
+    "double_check_disagreement_lte_0_20": {
+      "passed": true,
+      "double_check_disagreement_rate": 0.2,
+      "disagreement_bucket_counts": {
+        "REMEDIATION_vs_OTHER_intro_status": 2,
+        "ISSUE_vs_OTHER_effect_status": 2,
+        "true_needs_context": 2
+      }
+    }
+  },
+  "context_gate": {
+    "rerun_triggered": true,
+    "sentence_only_minus_needs_context_gap": 0.27727506330651563,
+    "review_queue_needs_context_rate": 0.3
+  },
+  "context_experiment": {
+    "promote_prev_sentence": false,
+    "sentence_only": {
+      "winner": "e5_logreg",
+      "test_macro_f1": 0.8883861744176268,
+      "needs_context_macro_f1": 0.6111111111111112,
+      "review_rate": 0.5
+    },
+    "prev_sentence": {
+      "winner": "e5_logreg",
+      "test_macro_f1": 0.7273863816449789,
+      "needs_context_macro_f1": 0.21666666666666667,
+      "review_rate": 0.6756756756756757
+    }
+  },
+  "active_learning_batch_round2": {
+    "rows": 100,
+    "selection_reason_counts": {
+      "margin": 50,
+      "disagreement": 20,
+      "diversity": 20,
+      "random": 10
+    }
+  },
+  "next_actions": [
+    "Keep sentence-only e5_logreg as the primary model because prev_sentence reduced both overall macro F1 and needs_context slice F1.",
+    "Use outputs/pilot_run_round2/active_learning_batch_round2.csv for the next label-quality round if more annotation budget is available.",
+    "Carry guideline v1.1 forward and continue focusing on ISSUE-versus-OTHER effect/status sentences and REMEDIATION intro/status sentences.",
+    "Do not open a new model family yet because validation precision is strong and review queue quality improved to the round-2 target."
+  ]
+}

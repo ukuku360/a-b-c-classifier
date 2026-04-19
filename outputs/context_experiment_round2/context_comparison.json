@@ -1,0 +1,14 @@
+{
+  "sentence_only": {
+    "winner": "e5_logreg",
+    "test_macro_f1": 0.8883861744176268,
+    "needs_context_macro_f1": 0.6111111111111112,
+    "review_rate": 0.5
+  },
+  "prev_sentence": {
+    "winner": "e5_logreg",
+    "test_macro_f1": 0.7273863816449789,
+    "needs_context_macro_f1": 0.21666666666666667,
+    "review_rate": 0.6756756756756757
+  }
+}

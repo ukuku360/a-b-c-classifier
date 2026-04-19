@@ -1,0 +1,17 @@
+{
+  "rows_total": 465,
+  "row_id_unique": 465,
+  "other_kept": 398,
+  "other_to_issue": 16,
+  "other_to_remediation": 51,
+  "needs_context_count": 86,
+  "mixed_ab_count": 0,
+  "annotator_count": 22,
+  "c_subtype_counts": {
+    "background": 111,
+    "status": 116,
+    "effect": 34,
+    "attestation": 50,
+    "other": 154
+  }
+}

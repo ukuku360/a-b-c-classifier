@@ -1,0 +1,504 @@
+{
+  "dataset_version": "token404_sample_yh.xlsx",
+  "label_version": "runtime_input",
+  "split_seed": 42,
+  "context_mode": "prev_sentence",
+  "winner": "e5_logreg",
+  "models": [
+    {
+      "model_name": "centroid_e5",
+      "embedding_model": "intfloat/e5-large-v2",
+      "classifier": "centroid",
+      "calibration_method": null,
+      "thresholds": {
+        "per_class": {
+          "ISSUE": 0.85,
+          "REMEDIATION": 0.85,
+          "OTHER": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.7552276786127381,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.8536585365853658,
+            "recall": 0.8641975308641975,
+            "f1": 0.8588957055214724,
+            "support": 81
+          },
+          "REMEDIATION": {
+            "precision": 0.7837837837837838,
+            "recall": 0.9354838709677419,
+            "f1": 0.8529411764705882,
+            "support": 31
+          },
+          "OTHER": {
+            "precision": 0.6206896551724138,
+            "recall": 0.5,
+            "f1": 0.5538461538461539,
+            "support": 36
+          }
+        },
+        "confusion_matrix": [
+          [
+            70,
+            1,
+            10
+          ],
+          [
+            1,
+            29,
+            1
+          ],
+          [
+            11,
+            7,
+            18
+          ]
+        ],
+        "review_rate": 1.0,
+        "auto_precision": {
+          "ISSUE": 0.0,
+          "REMEDIATION": 0.0,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 0,
+          "REMEDIATION": 0,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 1,
+            "macro_f1": 0.0
+          },
+          "needs_context": {
+            "support": 10,
+            "macro_f1": 0.3055555555555555
+          },
+          "attestation": {
+            "support": 5,
+            "macro_f1": 0.2962962962962963
+          },
+          "short_sentence": {
+            "support": 34,
+            "macro_f1": 0.6075187969924811
+          },
+          "legacy_AB": {
+            "support": 25,
+            "macro_f1": 0.6660441954559602
+          },
+          "legacy_negative": {
+            "support": 35,
+            "macro_f1": 0.45251058681185724
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.8373897707231039,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.8181818181818182,
+            "recall": 0.9,
+            "f1": 0.8571428571428571,
+            "support": 20
+          },
+          "REMEDIATION": {
+            "precision": 0.9411764705882353,
+            "recall": 0.8888888888888888,
+            "f1": 0.9142857142857143,
+            "support": 18
+          },
+          "OTHER": {
+            "precision": 0.7692307692307693,
+            "recall": 0.7142857142857143,
+            "f1": 0.7407407407407407,
+            "support": 14
+          }
+        },
+        "confusion_matrix": [
+          [
+            18,
+            0,
+            2
+          ],
+          [
+            1,
+            16,
+            1
+          ],
+          [
+            3,
+            1,
+            10
+          ]
+        ],
+        "review_rate": 1.0,
+        "auto_precision": {
+          "ISSUE": 0.0,
+          "REMEDIATION": 0.0,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 0,
+          "REMEDIATION": 0,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "needs_context": {
+            "support": 5,
+            "macro_f1": 0.3
+          },
+          "attestation": {
+            "support": 5,
+            "macro_f1": 0.3333333333333333
+          },
+          "short_sentence": {
+            "support": 12,
+            "macro_f1": 0.6757575757575758
+          },
+          "legacy_AB": {
+            "support": 5,
+            "macro_f1": 0.43333333333333335
+          },
+          "legacy_negative": {
+            "support": 5,
+            "macro_f1": 1.0
+          }
+        }
+      }
+    },
+    {
+      "model_name": "e5_logreg",
+      "embedding_model": "intfloat/e5-large-v2",
+      "classifier": "logreg",
+      "calibration_method": "sigmoid",
+      "thresholds": {
+        "per_class": {
+          "ISSUE": 0.7,
+          "REMEDIATION": 0.85,
+          "OTHER": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.7690593720005484,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.8210526315789474,
+            "recall": 0.9629629629629629,
+            "f1": 0.8863636363636364,
+            "support": 81
+          },
+          "REMEDIATION": {
+            "precision": 0.8108108108108109,
+            "recall": 0.967741935483871,
+            "f1": 0.8823529411764706,
+            "support": 31
+          },
+          "OTHER": {
+            "precision": 0.875,
+            "recall": 0.3888888888888889,
+            "f1": 0.5384615384615384,
+            "support": 36
+          }
+        },
+        "confusion_matrix": [
+          [
+            78,
+            1,
+            2
+          ],
+          [
+            1,
+            30,
+            0
+          ],
+          [
+            16,
+            6,
+            14
+          ]
+        ],
+        "review_rate": 0.46621621621621623,
+        "auto_precision": {
+          "ISSUE": 0.9104477611940298,
+          "REMEDIATION": 0.9166666666666666,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 67,
+          "REMEDIATION": 12,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 1,
+            "macro_f1": 0.0
+          },
+          "needs_context": {
+            "support": 10,
+            "macro_f1": 0.3055555555555555
+          },
+          "attestation": {
+            "support": 5,
+            "macro_f1": 0.19047619047619047
+          },
+          "short_sentence": {
+            "support": 34,
+            "macro_f1": 0.6555555555555556
+          },
+          "legacy_AB": {
+            "support": 25,
+            "macro_f1": 0.7692692692692692
+          },
+          "legacy_negative": {
+            "support": 35,
+            "macro_f1": 0.48888888888888893
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.8207249802994484,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.7407407407407407,
+            "recall": 1.0,
+            "f1": 0.851063829787234,
+            "support": 20
+          },
+          "REMEDIATION": {
+            "precision": 0.9444444444444444,
+            "recall": 0.9444444444444444,
+            "f1": 0.9444444444444444,
+            "support": 18
+          },
+          "OTHER": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "support": 14
+          }
+        },
+        "confusion_matrix": [
+          [
+            20,
+            0,
+            0
+          ],
+          [
+            1,
+            17,
+            0
+          ],
+          [
+            6,
+            1,
+            7
+          ]
+        ],
+        "review_rate": 0.5961538461538461,
+        "auto_precision": {
+          "ISSUE": 0.8571428571428571,
+          "REMEDIATION": 1.0,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 14,
+          "REMEDIATION": 7,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "needs_context": {
+            "support": 5,
+            "macro_f1": 0.3
+          },
+          "attestation": {
+            "support": 5,
+            "macro_f1": 0.25
+          },
+          "short_sentence": {
+            "support": 12,
+            "macro_f1": 0.734920634920635
+          },
+          "legacy_AB": {
+            "support": 5,
+            "macro_f1": 0.5333333333333333
+          },
+          "legacy_negative": {
+            "support": 5,
+            "macro_f1": 1.0
+          }
+        }
+      }
+    },
+    {
+      "model_name": "bge_svm",
+      "embedding_model": "BAAI/bge-base-en-v1.5",
+      "classifier": "linear_svm",
+      "calibration_method": "sigmoid",
+      "thresholds": {
+        "per_class": {
+          "ISSUE": 0.75,
+          "REMEDIATION": 0.8,
+          "OTHER": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.7673772609819122,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.8131868131868132,
+            "recall": 0.9135802469135802,
+            "f1": 0.8604651162790697,
+            "support": 81
+          },
+          "REMEDIATION": {
+            "precision": 0.8484848484848485,
+            "recall": 0.9032258064516129,
+            "f1": 0.875,
+            "support": 31
+          },
+          "OTHER": {
+            "precision": 0.7083333333333334,
+            "recall": 0.4722222222222222,
+            "f1": 0.5666666666666667,
+            "support": 36
+          }
+        },
+        "confusion_matrix": [
+          [
+            74,
+            1,
+            6
+          ],
+          [
+            2,
+            28,
+            1
+          ],
+          [
+            15,
+            4,
+            17
+          ]
+        ],
+        "review_rate": 0.4864864864864865,
+        "auto_precision": {
+          "ISSUE": 0.9230769230769231,
+          "REMEDIATION": 1.0,
+          "OTHER": 1.0
+        },
+        "auto_coverage": {
+          "ISSUE": 65,
+          "REMEDIATION": 9,
+          "OTHER": 2
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 1,
+            "macro_f1": 0.0
+          },
+          "needs_context": {
+            "support": 10,
+            "macro_f1": 0.3055555555555555
+          },
+          "attestation": {
+            "support": 5,
+            "macro_f1": 0.25
+          },
+          "short_sentence": {
+            "support": 34,
+            "macro_f1": 0.635897435897436
+          },
+          "legacy_AB": {
+            "support": 25,
+            "macro_f1": 0.7692692692692692
+          },
+          "legacy_negative": {
+            "support": 35,
+            "macro_f1": 0.48629531388152075
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.7179263934991202,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.7037037037037037,
+            "recall": 0.95,
+            "f1": 0.8085106382978723,
+            "support": 20
+          },
+          "REMEDIATION": {
+            "precision": 0.875,
+            "recall": 0.7777777777777778,
+            "f1": 0.8235294117647058,
+            "support": 18
+          },
+          "OTHER": {
+            "precision": 0.6666666666666666,
+            "recall": 0.42857142857142855,
+            "f1": 0.5217391304347826,
+            "support": 14
+          }
+        },
+        "confusion_matrix": [
+          [
+            19,
+            0,
+            1
+          ],
+          [
+            2,
+            14,
+            2
+          ],
+          [
+            6,
+            2,
+            6
+          ]
+        ],
+        "review_rate": 0.6923076923076923,
+        "auto_precision": {
+          "ISSUE": 1.0,
+          "REMEDIATION": 1.0,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 12,
+          "REMEDIATION": 4,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "needs_context": {
+            "support": 5,
+            "macro_f1": 0.16666666666666666
+          },
+          "attestation": {
+            "support": 5,
+            "macro_f1": 0.2962962962962963
+          },
+          "short_sentence": {
+            "support": 12,
+            "macro_f1": 0.5063492063492063
+          },
+          "legacy_AB": {
+            "support": 5,
+            "macro_f1": 0.5333333333333333
+          },
+          "legacy_negative": {
+            "support": 5,
+            "macro_f1": 0.8222222222222223
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+metric,value
+rows_total,619
+row_id_unique,619
+issue_kept,489
+issue_to_remediation,7
+issue_to_other,123
+needs_context_count,46
+mixed_ab_count,1
+annotator_count,31

@@ -1,0 +1,12 @@
+metric,value
+rows_total,552
+row_id_unique,552
+remediation_kept,412
+remediation_to_issue,10
+remediation_to_other,130
+needs_context_count,70
+mixed_ab_count,6
+annotator_count,23
+master_overlap_rows,73
+master_overlap_match_count,64
+master_overlap_mismatch_count,9

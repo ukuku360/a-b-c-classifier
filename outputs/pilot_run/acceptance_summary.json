@@ -1,0 +1,57 @@
+{
+  "winner": "e5_logreg",
+  "criteria": {
+    "macro_f1_vs_centroid_plus_5pt": {
+      "passed": false,
+      "winner_cv_macro_f1": 0.8446387392426428,
+      "centroid_cv_macro_f1": 0.8525239576425365
+    },
+    "validation_auto_precision_issue_remediation_gte_0_90": {
+      "passed": true,
+      "auto_precision_issue": 0.9058823529411765,
+      "auto_precision_remediation": 0.9629629629629629
+    },
+    "review_queue_target_cases_gte_0_70": {
+      "passed": false,
+      "target_review_case_rate": 0.48,
+      "bucket_counts": {
+        "needs_context": 14,
+        "clear_remediation": 10,
+        "ambiguous": 10,
+        "clear_issue": 6,
+        "clear_background": 5,
+        "status_other": 5
+      }
+    }
+  },
+  "context_experiment": {
+    "promote_prev_sentence": false,
+    "sentence_only": {
+      "winner": "e5_logreg",
+      "test_macro_f1": 0.8946368770930174,
+      "needs_context_macro_f1": 0.5555555555555555,
+      "review_rate": 0.25
+    },
+    "prev_sentence": {
+      "winner": "e5_logreg",
+      "test_macro_f1": 0.8207249802994484,
+      "needs_context_macro_f1": 0.3,
+      "review_rate": 0.5961538461538461
+    }
+  },
+  "next_actions": [
+    "Keep sentence_only model as primary because prev_sentence reduced both overall and needs_context performance.",
+    "Use outputs/pilot_run/active_learning_batch_round1.csv as the next annotation round.",
+    "Target guideline refinement on ISSUE-versus-OTHER effect/status sentences and remediation-status intros.",
+    "Do not lock final thresholds or final winner beyond this pilot because criterion 1 and criterion 3 failed."
+  ],
+  "active_learning_batch": {
+    "rows": 100,
+    "selection_reason_counts": {
+      "margin": 50,
+      "disagreement": 20,
+      "diversity": 20,
+      "random": 10
+    }
+  }
+}

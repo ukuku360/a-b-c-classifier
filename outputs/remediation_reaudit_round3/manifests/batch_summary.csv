@@ -1,0 +1,24 @@
+batch_id,batch_path,row_count,doc_count,first_doc_id,last_doc_id,first_row_id,last_row_id
+batch_001,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_001.csv,25,7,0000023666_2012_4,0000080035_2007_4,309,913
+batch_002,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_002.csv,25,5,0000089089_2007_4,0000216039_2008_4,88,1468
+batch_003,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_003.csv,25,3,0000216039_2008_4,0000317477_2010_4,329,1552
+batch_004,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_004.csv,25,6,0000317477_2010_4,0000783412_2014_4,172,770
+batch_005,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_005.csv,25,4,0000783412_2014_4,0000798081_2009_4,585,1517
+batch_006,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_006.csv,25,6,0000798081_2009_4,0000835011_2006_4,198,1359
+batch_007,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_007.csv,25,6,0000835011_2006_4,0000874734_2005_4,95,1484
+batch_008,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_008.csv,25,7,0000874734_2005_4,0000914712_2018_4,43,1319
+batch_009,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_009.csv,25,4,0000914712_2018_4,0000922487_2007_4,251,1432
+batch_010,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_010.csv,25,3,0000922487_2007_4,0000929940_2007_4,274,1204
+batch_011,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_011.csv,25,5,0000929940_2007_4,0001014739_2005_4,16,1217
+batch_012,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_012.csv,25,1,0001014739_2005_4,0001014739_2005_4,423,454
+batch_013,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_013.csv,25,7,0001014739_2005_4,0001129633_2015_4,455,1233
+batch_014,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_014.csv,25,1,0001129633_2015_4,0001129633_2015_4,1031,1083
+batch_015,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_015.csv,25,3,0001129633_2015_4,0001140098_2013_4,248,1117
+batch_016,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_016.csv,25,6,0001140098_2013_4,0001285224_2010_4,470,959
+batch_017,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_017.csv,25,6,0001289945_2007_4,0001376339_2019_4,323,1587
+batch_018,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_018.csv,25,1,0001376339_2019_4,0001376339_2019_4,1588,1617
+batch_019,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_019.csv,25,2,0001376339_2019_4,0001376339_2020_4,131,1625
+batch_020,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_020.csv,25,6,0001376339_2020_4,0001494259_2022_4,8,942
+batch_021,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_021.csv,25,3,0001494259_2022_4,0001517022_2023_4,672,1278
+batch_022,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_022.csv,25,6,0001604778_2016_4,0001818093_2024_4,397,1446
+batch_023,/Users/nmduk/PROJECTS/A:B:C Classifier/outputs/remediation_reaudit_round3/batches/batch_023.csv,2,1,0001818093_2024_4,0001818093_2024_4,398,399

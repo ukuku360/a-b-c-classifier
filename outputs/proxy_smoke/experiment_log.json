@@ -1,0 +1,516 @@
+{
+  "dataset_version": "token404_sample_yh.xlsx",
+  "label_version": "runtime_input",
+  "split_seed": 42,
+  "context_mode": "sentence_only",
+  "winner": "e5_logreg",
+  "models": [
+    {
+      "model_name": "centroid_e5",
+      "embedding_model": "intfloat/e5-large-v2",
+      "classifier": "centroid",
+      "calibration_method": null,
+      "thresholds": {
+        "per_class": {
+          "A": 0.85,
+          "B": 0.85,
+          "C": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.7082433141906391,
+        "per_class": {
+          "A": {
+            "precision": 0.5102040816326531,
+            "recall": 0.8695652173913043,
+            "f1": 0.6430868167202572,
+            "support": 115
+          },
+          "B": {
+            "precision": 0.8310104529616724,
+            "recall": 0.7595541401273885,
+            "f1": 0.7936772046589018,
+            "support": 628
+          },
+          "C": {
+            "precision": 0.7083333333333334,
+            "recall": 0.6687370600414079,
+            "f1": 0.6879659211927582,
+            "support": 483
+          }
+        },
+        "confusion_matrix": [
+          [
+            100,
+            1,
+            14
+          ],
+          [
+            32,
+            477,
+            119
+          ],
+          [
+            64,
+            96,
+            323
+          ]
+        ],
+        "review_rate": 1.0,
+        "auto_precision": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0
+        },
+        "auto_coverage": {
+          "A": 0,
+          "B": 0,
+          "C": 0
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 42,
+            "macro_f1": 0.08333333333333333
+          },
+          "needs_context": {
+            "support": 154,
+            "macro_f1": 0.6161329300924526
+          },
+          "attestation": {
+            "support": 33,
+            "macro_f1": 0.3333333333333333
+          },
+          "short_sentence": {
+            "support": 364,
+            "macro_f1": 0.6975934459805427
+          },
+          "legacy_AB": {
+            "support": 42,
+            "macro_f1": 0.08333333333333333
+          },
+          "legacy_negative": {
+            "support": 408,
+            "macro_f1": 0.27360308285163776
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.6175056332525143,
+        "per_class": {
+          "A": {
+            "precision": 0.43137254901960786,
+            "recall": 0.7096774193548387,
+            "f1": 0.5365853658536586,
+            "support": 31
+          },
+          "B": {
+            "precision": 0.8205128205128205,
+            "recall": 0.75,
+            "f1": 0.7836734693877551,
+            "support": 256
+          },
+          "C": {
+            "precision": 0.528,
+            "recall": 0.5365853658536586,
+            "f1": 0.532258064516129,
+            "support": 123
+          }
+        },
+        "confusion_matrix": [
+          [
+            22,
+            2,
+            7
+          ],
+          [
+            12,
+            192,
+            52
+          ],
+          [
+            17,
+            40,
+            66
+          ]
+        ],
+        "review_rate": 1.0,
+        "auto_precision": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0
+        },
+        "auto_coverage": {
+          "A": 0,
+          "B": 0,
+          "C": 0
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 12,
+            "macro_f1": 0.16666666666666666
+          },
+          "needs_context": {
+            "support": 45,
+            "macro_f1": 0.6463386463386463
+          },
+          "attestation": {
+            "support": 6,
+            "macro_f1": 0.3333333333333333
+          },
+          "short_sentence": {
+            "support": 140,
+            "macro_f1": 0.5878533231474408
+          },
+          "legacy_AB": {
+            "support": 12,
+            "macro_f1": 0.16666666666666666
+          },
+          "legacy_negative": {
+            "support": 105,
+            "macro_f1": 0.2318840579710145
+          }
+        }
+      }
+    },
+    {
+      "model_name": "e5_logreg",
+      "embedding_model": "intfloat/e5-large-v2",
+      "classifier": "logreg",
+      "calibration_method": "sigmoid",
+      "thresholds": {
+        "per_class": {
+          "A": 0.85,
+          "B": 0.7,
+          "C": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.7331358387442338,
+        "per_class": {
+          "A": {
+            "precision": 0.6639344262295082,
+            "recall": 0.7043478260869566,
+            "f1": 0.6835443037974683,
+            "support": 115
+          },
+          "B": {
+            "precision": 0.815112540192926,
+            "recall": 0.8073248407643312,
+            "f1": 0.8112,
+            "support": 628
+          },
+          "C": {
+            "precision": 0.7053941908713693,
+            "recall": 0.7039337474120083,
+            "f1": 0.7046632124352331,
+            "support": 483
+          }
+        },
+        "confusion_matrix": [
+          [
+            81,
+            5,
+            29
+          ],
+          [
+            8,
+            507,
+            113
+          ],
+          [
+            33,
+            110,
+            340
+          ]
+        ],
+        "review_rate": 0.6892332789559543,
+        "auto_precision": {
+          "A": 0.8571428571428571,
+          "B": 0.9180790960451978,
+          "C": 0.9
+        },
+        "auto_coverage": {
+          "A": 7,
+          "B": 354,
+          "C": 20
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 42,
+            "macro_f1": 0.11764705882352942
+          },
+          "needs_context": {
+            "support": 154,
+            "macro_f1": 0.6748299319727892
+          },
+          "attestation": {
+            "support": 33,
+            "macro_f1": 0.3333333333333333
+          },
+          "short_sentence": {
+            "support": 364,
+            "macro_f1": 0.7013567232593058
+          },
+          "legacy_AB": {
+            "support": 42,
+            "macro_f1": 0.11764705882352942
+          },
+          "legacy_negative": {
+            "support": 408,
+            "macro_f1": 0.2813975448536355
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.6433594456803807,
+        "per_class": {
+          "A": {
+            "precision": 0.6785714285714286,
+            "recall": 0.6129032258064516,
+            "f1": 0.6440677966101694,
+            "support": 31
+          },
+          "B": {
+            "precision": 0.7747035573122529,
+            "recall": 0.765625,
+            "f1": 0.7701375245579568,
+            "support": 256
+          },
+          "C": {
+            "precision": 0.5038759689922481,
+            "recall": 0.5284552845528455,
+            "f1": 0.5158730158730159,
+            "support": 123
+          }
+        },
+        "confusion_matrix": [
+          [
+            19,
+            5,
+            7
+          ],
+          [
+            3,
+            196,
+            57
+          ],
+          [
+            6,
+            52,
+            65
+          ]
+        ],
+        "review_rate": 0.6121951219512195,
+        "auto_precision": {
+          "A": 0.8333333333333334,
+          "B": 0.8741721854304636,
+          "C": 0.5
+        },
+        "auto_coverage": {
+          "A": 6,
+          "B": 151,
+          "C": 2
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 12,
+            "macro_f1": 0.13333333333333333
+          },
+          "needs_context": {
+            "support": 45,
+            "macro_f1": 0.7210351377018043
+          },
+          "attestation": {
+            "support": 6,
+            "macro_f1": 0.3333333333333333
+          },
+          "short_sentence": {
+            "support": 140,
+            "macro_f1": 0.5235023041474655
+          },
+          "legacy_AB": {
+            "support": 12,
+            "macro_f1": 0.13333333333333333
+          },
+          "legacy_negative": {
+            "support": 105,
+            "macro_f1": 0.2318840579710145
+          }
+        }
+      }
+    },
+    {
+      "model_name": "bge_svm",
+      "embedding_model": "BAAI/bge-base-en-v1.5",
+      "classifier": "linear_svm",
+      "calibration_method": "sigmoid",
+      "thresholds": {
+        "per_class": {
+          "A": 0.75,
+          "B": 0.7,
+          "C": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.7153044410338306,
+        "per_class": {
+          "A": {
+            "precision": 0.735632183908046,
+            "recall": 0.5565217391304348,
+            "f1": 0.6336633663366337,
+            "support": 115
+          },
+          "B": {
+            "precision": 0.8067092651757188,
+            "recall": 0.804140127388535,
+            "f1": 0.8054226475279107,
+            "support": 628
+          },
+          "C": {
+            "precision": 0.6861598440545809,
+            "recall": 0.7287784679089027,
+            "f1": 0.7068273092369478,
+            "support": 483
+          }
+        },
+        "confusion_matrix": [
+          [
+            64,
+            12,
+            39
+          ],
+          [
+            1,
+            505,
+            122
+          ],
+          [
+            22,
+            109,
+            352
+          ]
+        ],
+        "review_rate": 0.5929853181076672,
+        "auto_precision": {
+          "A": 1.0,
+          "B": 0.9076576576576577,
+          "C": 0.8148148148148148
+        },
+        "auto_coverage": {
+          "A": 1,
+          "B": 444,
+          "C": 54
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 42,
+            "macro_f1": 0.13836477987421383
+          },
+          "needs_context": {
+            "support": 154,
+            "macro_f1": 0.659378359044655
+          },
+          "attestation": {
+            "support": 33,
+            "macro_f1": 0.3333333333333333
+          },
+          "short_sentence": {
+            "support": 364,
+            "macro_f1": 0.6892542504738026
+          },
+          "legacy_AB": {
+            "support": 42,
+            "macro_f1": 0.13836477987421383
+          },
+          "legacy_negative": {
+            "support": 408,
+            "macro_f1": 0.28677839851024206
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.6596416255128331,
+        "per_class": {
+          "A": {
+            "precision": 0.75,
+            "recall": 0.5806451612903226,
+            "f1": 0.6545454545454545,
+            "support": 31
+          },
+          "B": {
+            "precision": 0.8,
+            "recall": 0.75,
+            "f1": 0.7741935483870968,
+            "support": 256
+          },
+          "C": {
+            "precision": 0.5068493150684932,
+            "recall": 0.6016260162601627,
+            "f1": 0.550185873605948,
+            "support": 123
+          }
+        },
+        "confusion_matrix": [
+          [
+            18,
+            3,
+            10
+          ],
+          [
+            2,
+            192,
+            62
+          ],
+          [
+            4,
+            45,
+            74
+          ]
+        ],
+        "review_rate": 0.5658536585365853,
+        "auto_precision": {
+          "A": 1.0,
+          "B": 0.8674698795180723,
+          "C": 0.7272727272727273
+        },
+        "auto_coverage": {
+          "A": 1,
+          "B": 166,
+          "C": 11
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 12,
+            "macro_f1": 0.16666666666666666
+          },
+          "needs_context": {
+            "support": 45,
+            "macro_f1": 0.7228250676526539
+          },
+          "attestation": {
+            "support": 6,
+            "macro_f1": 0.3333333333333333
+          },
+          "short_sentence": {
+            "support": 140,
+            "macro_f1": 0.5586051774576365
+          },
+          "legacy_AB": {
+            "support": 12,
+            "macro_f1": 0.16666666666666666
+          },
+          "legacy_negative": {
+            "support": 105,
+            "macro_f1": 0.252465483234714
+          }
+        }
+      }
+    }
+  ]
+}

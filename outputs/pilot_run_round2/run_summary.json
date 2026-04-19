@@ -1,0 +1,30 @@
+{
+  "label_source": "annotations",
+  "context_mode": "sentence_only",
+  "winner": "e5_logreg",
+  "winner_embedding_model": "intfloat/e5-large-v2",
+  "winner_classifier": "logreg",
+  "winner_test_macro_f1": 0.8883861744176268,
+  "winner_test_review_rate": 0.5,
+  "winner_auto_precision_issue": 0.9583333333333334,
+  "winner_auto_precision_remediation": 1.0,
+  "review_queue_rows": 50,
+  "winner_embeddings_path": "outputs/pilot_run_round2/winner_embeddings.npy",
+  "models": [
+    {
+      "model_name": "centroid_e5",
+      "test_macro_f1": 0.820372447584448,
+      "test_review_rate": 1.0
+    },
+    {
+      "model_name": "e5_logreg",
+      "test_macro_f1": 0.8883861744176268,
+      "test_review_rate": 0.5
+    },
+    {
+      "model_name": "bge_svm",
+      "test_macro_f1": 0.8665223665223665,
+      "test_review_rate": 0.527027027027027
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "review_rows": 50,
+  "bucket_counts": {
+    "ambiguous": 15,
+    "needs_context": 15,
+    "clear_remediation": 10,
+    "clear_background": 6,
+    "clear_issue": 4
+  },
+  "target_review_case_rows": 30,
+  "target_review_case_rate": 0.6
+}

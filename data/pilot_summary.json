@@ -1,0 +1,25 @@
+{
+  "rows": 1636,
+  "docs": 100,
+  "test_docs": 20,
+  "trainval_docs": 80,
+  "seed_rows": 200,
+  "boundary_rows": 50,
+  "proxy_label_counts": {
+    "REMEDIATION": 884,
+    "OTHER": 606,
+    "ISSUE": 146
+  },
+  "seed_sampling_counts": {
+    "legacy_issue_only": 60,
+    "legacy_remediation_only": 60,
+    "legacy_issue_and_remediation": 30,
+    "legacy_negative": 30,
+    "legacy_attestation": 10,
+    "legacy_background": 10
+  },
+  "seed_split_counts": {
+    "trainval": 148,
+    "test": 52
+  }
+}

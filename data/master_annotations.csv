@@ -1,0 +1,301 @@
+row_id,label_main,flag_mixed_ab,flag_needs_context,c_subtype,annotator,label_version,note
+5,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+23,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+26,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+29,OTHER,0,1,other,codex_pass1,guideline_v1_round1,fragmentary issue header
+34,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+37,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+40,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+47,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,reports that remedial actions may be material changes
+66,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+67,OTHER,0,0,status,codex_pass1,guideline_v1_round1,remediation status statement
+71,OTHER,0,0,background,codex_pass1,guideline_v1_round1,"generic definition, not company-specific issue"
+87,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,lead-in header for remediation list
+92,OTHER,1,0,other,codex_pass1,guideline_v1_round1,mixed problem and remediation in one sentence
+96,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+117,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+120,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+123,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+130,OTHER,0,0,status,codex_pass1,guideline_v1_round1,remediation section intro/status sentence
+133,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,summary lead-in ending with as follows
+141,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+150,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,OCR-merged improvement list; action list dominates
+165,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+167,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+171,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+181,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+182,OTHER,0,0,effect,codex_round2_final,guideline_v1_1_round2_final,adjustment timing/effect statement
+193,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+201,OTHER,0,0,background,codex_pass1,guideline_v1_round1,"generic definition, not company-specific issue"
+208,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+218,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+219,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+221,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+226,ISSUE,0,1,,codex_pass1,guideline_v1_round1,split sentence continuation of control deficiency
+227,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+228,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+231,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+233,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+238,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+245,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+248,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+255,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+266,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+281,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+284,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+286,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+296,OTHER,0,1,other,codex_pass1,guideline_v1_round1,name fragment only
+299,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+301,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+303,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+308,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+311,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+316,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+320,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,"describes reassessment step, not weakness or fix"
+325,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+326,OTHER,0,0,background,codex_pass1,guideline_v1_round1,background or definitional sentence
+327,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+342,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+344,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,remediation execution status
+346,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+357,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+366,OTHER,0,1,other,codex_pass1,guideline_v1_round1,split sentence; needs next sentence for full meaning
+368,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+376,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,compensating review step before filing
+377,OTHER,0,0,effect,codex_pass1,guideline_v1_round1,"effect statement about financial statements, not action"
+380,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,generic ongoing remediation status
+394,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+409,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+410,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+412,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+437,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+447,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+454,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+458,OTHER,0,0,background,codex_pass1,guideline_v1_round1,background or definitional sentence
+461,OTHER,0,0,background,codex_pass1,guideline_v1_round1,background or definitional sentence
+468,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,no change in ICFR status sentence
+473,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+475,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+477,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+491,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+494,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+498,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+501,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+503,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+510,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+519,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+526,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+538,REMEDIATION,1,0,other,codex_round2_final,guideline_v1_1_round2_final,mixed issue history plus concrete hiring/advisor actions
+546,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+548,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,report placement/background sentence
+560,OTHER,0,0,effect,codex_round2_final,guideline_v1_1_round2_final,fairly present assertion despite ineffective controls
+561,OTHER,0,0,attestation,codex_round2_final,guideline_v1_1_round2_final,audit report statement
+568,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,executive change background
+569,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,fragment only
+570,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+573,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+574,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+576,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,generic began taking steps language
+586,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+587,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+622,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+626,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+634,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+641,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+650,OTHER,0,0,effect,codex_pass1,guideline_v1_round1,effect statement about no downstream impact
+655,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,scope exclusion/background sentence
+666,OTHER,0,1,status,codex_round2_final,guideline_v1_1_round2_final,generic remediation reference without concrete step
+670,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+671,ISSUE,0,1,,codex_pass1,guideline_v1_round1,awkward remediation header merged with problem statement
+678,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+686,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+693,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+700,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+708,OTHER,0,0,background,codex_pass1,guideline_v1_round1,background or definitional sentence
+713,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+717,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+726,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,lead-in to remediation list ending with including
+728,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+731,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+738,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+744,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+746,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+750,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+761,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+763,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+777,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+787,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,generic remediation summary without concrete step
+794,OTHER,0,1,other,codex_pass1,guideline_v1_round1,section header rather than standalone action
+802,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+803,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+814,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+815,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+818,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+826,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+832,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+846,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+858,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+860,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+870,OTHER,0,0,attestation,codex_round2_final,guideline_v1_1_round2_final,attestation report placement sentence
+871,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+875,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,management report responsibility statement
+880,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+883,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+901,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+905,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,general commitment to remediation progress
+906,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,generic remediation activity summary
+908,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,lead-in to remediation list
+910,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+912,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+924,ISSUE,0,1,,codex_pass1,guideline_v1_round1,incomplete problem statement
+925,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+929,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+933,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,management enhanced prior remediation plan
+941,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+950,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+952,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+955,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+965,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+977,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,remediation not yet proven effective
+980,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,tax reassessment procedure description
+982,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+987,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+988,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+993,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+994,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1002,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1010,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1016,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,definition/framework text
+1023,OTHER,0,0,attestation,codex_round2_final,guideline_v1_1_round2_final,auditor report content statement
+1028,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,lead-in header for remediation list
+1031,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1032,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1043,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1050,OTHER,0,1,other,codex_pass1,guideline_v1_round1,section lead-in rather than standalone action
+1064,OTHER,0,1,other,codex_pass1,guideline_v1_round1,section lead-in rather than standalone action
+1065,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1067,OTHER,0,1,other,codex_pass1,guideline_v1_round1,topic fragment only
+1080,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1088,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1089,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1094,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1095,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,lead-in header for action list
+1113,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1123,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+1131,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1132,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,plan-development commitment statement
+1134,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,remediation not yet complete until testing
+1138,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1140,OTHER,0,0,background,codex_pass1,guideline_v1_round1,background or definitional sentence
+1142,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1152,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+1157,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1158,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1159,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1162,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1165,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1166,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1171,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1173,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1175,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1179,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,remaining process improvement gap after prior measures
+1184,OTHER,0,1,other,codex_pass1,guideline_v1_round1,lead-in to remediation action list
+1188,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1190,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1194,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1205,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1210,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1213,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1218,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1220,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1222,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1226,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1227,OTHER,0,1,other,codex_pass1,guideline_v1_round1,fragmentary impact sentence; needs surrounding remediation context
+1229,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,lead-in header for action list
+1232,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1233,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1238,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1239,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1241,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1244,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1247,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1250,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1256,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1260,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1265,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1279,OTHER,0,0,background,codex_pass1,guideline_v1_round1,background or definitional sentence
+1283,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1284,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1287,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,no changes in ICFR status sentence
+1288,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,lead-in header for planned steps
+1294,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1295,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1298,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,no changes in ICFR sentence
+1311,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1318,OTHER,0,0,background,codex_pass1,guideline_v1_round1,background or definitional sentence
+1321,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+1323,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1324,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1337,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1343,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1353,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1354,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,historical disclosure status
+1360,OTHER,0,0,status,codex_pass1,guideline_v1_round1,status update on incomplete remediation
+1362,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,unable to fully implement remediation
+1365,OTHER,0,1,status,codex_round2_final,guideline_v1_1_round2_final,conditional remediation status referencing remedies below
+1372,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1373,ISSUE,0,1,,codex_pass1,guideline_v1_round1,needs surrounding sentence for full meaning
+1380,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1383,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1387,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1389,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1393,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1394,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1395,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1397,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1410,OTHER,0,1,other,codex_round2_final,guideline_v1_1_round2_final,lead-in to preliminary remediation steps
+1415,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1417,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1422,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1423,OTHER,0,0,status,codex_pass1,guideline_v1_round1,status of failed remediation effort
+1424,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1432,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1433,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,remediation timeline expectation
+1443,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1447,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+1455,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1459,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1461,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1471,OTHER,0,0,effect,codex_round2_final,guideline_v1_1_round2_final,effect of actions on ICFR
+1473,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,continued remediation status
+1475,OTHER,0,0,background,codex_round2_final,guideline_v1_1_round2_final,COSO evaluation background
+1477,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1484,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1491,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1493,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1500,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1508,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1520,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1522,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention
+1524,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1534,OTHER,0,1,other,codex_pass1,guideline_v1_round1,fragment/header about investigation subject
+1539,OTHER,0,1,other,codex_pass1,guideline_v1_round1,fragmentary investigation finding
+1543,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"remediation status update, not concrete action"
+1546,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1549,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1556,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+1558,ISSUE,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1583,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1597,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1600,OTHER,0,0,status,codex_pass1,guideline_v1_round1,remediation completion status sentence
+1604,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1612,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1615,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1616,REMEDIATION,0,0,other,codex_round2_final,guideline_v1_1_round2_final,
+1618,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1621,REMEDIATION,0,0,,codex_pass1,guideline_v1_round1,
+1627,OTHER,0,0,status,codex_pass1,guideline_v1_round1,"status/update sentence, not direct issue or action"
+1628,OTHER,0,0,status,codex_round2_final,guideline_v1_1_round2_final,ongoing evaluation during integration
+1633,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1634,ISSUE,0,0,,codex_pass1,guideline_v1_round1,
+1636,OTHER,0,0,attestation,codex_pass1,guideline_v1_round1,auditor attestation mention

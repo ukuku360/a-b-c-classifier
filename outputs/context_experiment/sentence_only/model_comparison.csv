@@ -1,0 +1,4 @@
+model_name,embedding_model,classifier,cv_macro_f1,test_macro_f1,test_review_rate,test_auto_precision_issue,test_auto_precision_remediation
+e5_logreg,intfloat/e5-large-v2,logreg,0.8446387392426428,0.8946368770930174,0.25,1.0,0.8333333333333334
+centroid_e5,intfloat/e5-large-v2,centroid,0.8525239576425365,0.8759398496240601,1.0,0.0,0.0
+bge_svm,BAAI/bge-base-en-v1.5,linear_svm,0.8115018757302433,0.8738553701326488,0.25,0.95,0.8666666666666667

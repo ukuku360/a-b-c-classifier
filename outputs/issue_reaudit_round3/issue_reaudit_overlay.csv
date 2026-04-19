@@ -1,0 +1,620 @@
+row_id,label_main,flag_mixed_ab,flag_needs_context,c_subtype,annotator,label_version,note
+2,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+4,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+5,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+14,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+15,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+17,OTHER,0,0,background,worker_batch_016,guideline_v1_1_issue_reaudit_round3,Background about SOC-report availability/timing; no control failure stated.
+18,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+26,ISSUE,0,0,other,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+27,OTHER,0,0,background,worker_batch_018,guideline_v1_1_issue_reaudit_round3,Generic definition of material weakness; not a company-specific issue statement.
+28,ISSUE,0,0,other,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+30,ISSUE,0,0,other,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+31,OTHER,0,0,effect,worker_batch_018,guideline_v1_1_issue_reaudit_round3,Restatement outcome only; no new issue or remediation action.
+32,ISSUE,0,0,effect,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+33,OTHER,0,1,background,worker_batch_018,guideline_v1_1_issue_reaudit_round3,Section header/topic line; context needed to understand the SFAS 86 discussion.
+34,ISSUE,0,0,other,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+35,ISSUE,0,0,other,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+36,ISSUE,0,0,other,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+37,ISSUE,0,0,effect,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+39,OTHER,0,0,effect,worker_batch_018,guideline_v1_1_issue_reaudit_round3,Neutral conclusion from revised methodology; no weakness or action stated.
+40,OTHER,0,0,effect,worker_batch_018,guideline_v1_1_issue_reaudit_round3,Restatement outcome only; no new issue or remediation action.
+41,ISSUE,0,0,effect,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+42,ISSUE,0,0,effect,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+49,OTHER,0,1,effect,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Incomplete effect fragment about delays in preparing financial statements; not a direct issue.
+50,OTHER,0,1,status,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Status-only statement about timing of prior changes; no explicit weakness or remediation.
+51,OTHER,0,1,status,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Incomplete lead-in to the next remediation sentence; needs surrounding context.
+58,OTHER,0,0,background,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Generic definition of significant deficiency; not company-specific.
+59,OTHER,0,1,status,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Status-only intro that the listed weaknesses were still unresolved.
+60,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+61,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+63,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+64,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+65,OTHER,0,0,effect,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Effect/background statement describing how the provider's processes affected accounting and revenue timing.
+66,OTHER,0,0,effect,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Effect-only conclusion that the weakness did not result in a material misstatement.
+68,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+71,OTHER,0,0,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,"Generic definition of material weakness, not a company-specific issue."
+73,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+74,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+82,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+83,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+84,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+90,OTHER,0,1,status,worker_batch_022,guideline_v1_1_issue_reaudit_round3,lead-in to unspecified deficiency; standalone context needed
+91,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,failure of operating effectiveness states the deficiency itself
+92,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,material misstatement risk if not remediated
+93,OTHER,0,0,background,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Generic PCAOB definition of material weakness not a company-specific issue statement
+97,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Describes prohibited distributor sales and insufficient controls
+98,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Lists inadequate policies and change controls
+99,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Describes inadequate training monitoring and oversight controls
+100,ISSUE,0,0,status,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Direct conclusion that a material weakness existed at period end
+115,OTHER,0,0,background,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Generic inherent-limitations boilerplate not a specific issue or action
+116,OTHER,0,0,background,worker_batch_028,guideline_v1_1_issue_reaudit_round3,Historical reference to prior disclosure not a current issue statement.
+120,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+122,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+123,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+124,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+125,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+126,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+127,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+128,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+129,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+134,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+135,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+159,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+160,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+161,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+166,ISSUE,0,1,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Lead-in to the specific weakness described next.
+167,ISSUE,0,1,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Heading-style fragment naming the weakness.
+168,ISSUE,0,0,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,
+169,ISSUE,0,1,effect,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Deictic reference to the material weakness and its misstatement effect.
+179,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+180,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+181,OTHER,0,0,effect,worker_batch_028,guideline_v1_1_issue_reaudit_round3,Describes a resulting adjustment from the control deficiency.
+189,OTHER,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,Disclosure reference only not a direct weakness statement
+190,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+192,OTHER,0,1,background,worker_batch_007,guideline_v1_1_issue_reaudit_round3,Lead-in to the weaknesses described below; needs surrounding context.
+193,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+194,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+196,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+199,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+201,OTHER,0,0,background,worker_batch_003,guideline_v1_1_issue_reaudit_round3,"Generic definition of material weakness, not a company-specific issue."
+202,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+205,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+206,ISSUE,0,0,effect,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+209,OTHER,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,"Generic control-effectiveness framework/risk language, not a company-specific weakness or remediation."
+210,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+211,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+212,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+213,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+214,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+215,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+216,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+217,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+218,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+219,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+220,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+221,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+222,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+223,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+224,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+225,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+227,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+228,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+229,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+230,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+231,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+232,ISSUE,0,0,background,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+233,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+234,ISSUE,0,0,effect,worker_batch_020,guideline_v1_1_issue_reaudit_round3,
+235,ISSUE,0,0,background,worker_batch_021,guideline_v1_1_issue_reaudit_round3,
+236,ISSUE,0,0,background,worker_batch_021,guideline_v1_1_issue_reaudit_round3,
+237,ISSUE,0,0,background,worker_batch_021,guideline_v1_1_issue_reaudit_round3,
+238,ISSUE,0,0,effect,worker_batch_021,guideline_v1_1_issue_reaudit_round3,
+239,ISSUE,0,0,effect,worker_batch_021,guideline_v1_1_issue_reaudit_round3,
+242,OTHER,0,0,background,worker_batch_023,guideline_v1_1_issue_reaudit_round3,Generic definition of material weakness.
+244,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+245,ISSUE,0,0,effect,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+246,ISSUE,0,0,effect,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+247,REMEDIATION,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,Concrete corrective action and review.
+254,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,States ICFR was not effective due to identified material weaknesses.
+255,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Lead-in still identifies material weaknesses that existed as of the date.
+256,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Direct inadequacy of ICFR statement.
+258,OTHER,0,1,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Incomplete citation fragment; needs surrounding context.
+259,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Direct inadequacy of policies and procedures.
+262,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Direct lack-of-controls weakness statement.
+272,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,States a material weakness existed.
+273,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Direct weakness description.
+279,OTHER,0,0,background,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Generic COSO style limitations language
+280,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Identifies a deficiency considered a material weakness
+281,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,States the trust lacked internal controls to ensure royalty compliance
+283,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,States controls were not designed to capture terms and calculate revenues accurately
+284,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,States controls could not timely identify a misstatement
+285,ISSUE,0,0,effect,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Describes the weakness consequence as failure to identify underpayments
+286,ISSUE,0,0,effect,worker_batch_010,guideline_v1_1_issue_reaudit_round3,States material misstatement risk from the weakness
+287,ISSUE,0,0,status,worker_batch_010,guideline_v1_1_issue_reaudit_round3,States internal control was not effective as of year end
+292,ISSUE,0,0,other,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+294,ISSUE,0,0,effect,worker_batch_018,guideline_v1_1_issue_reaudit_round3,
+301,ISSUE,0,0,status,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+302,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+303,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+304,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+305,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+306,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+307,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+308,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+310,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+311,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+313,OTHER,0,1,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,Header-like intro to the listed material weakness; substance is in the following sentence.
+314,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+315,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+316,ISSUE,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+317,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+319,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+320,OTHER,0,0,background,worker_batch_025,guideline_v1_1_issue_reaudit_round3,Background on year-end tax provision procedures; not a deficiency statement.
+321,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+327,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+351,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+359,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+360,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+369,ISSUE,0,0,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,
+370,ISSUE,0,1,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Deictic reference to the prior material weakness.
+371,OTHER,0,1,status,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Remediation status only; no concrete remediation action is reported.
+372,ISSUE,0,0,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,
+373,ISSUE,0,1,effect,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Deictic reference to prior deficiencies; describes their revenue/receivables impact.
+374,ISSUE,0,0,effect,worker_batch_005,guideline_v1_1_issue_reaudit_round3,
+385,ISSUE,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+386,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+391,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+394,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+395,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+401,OTHER,0,1,background,worker_batch_019,guideline_v1_1_issue_reaudit_round3,Lead-in to the list of weaknesses; incomplete standalone.
+402,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+403,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+404,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+405,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+406,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+407,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+408,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+409,OTHER,0,1,background,worker_batch_019,guideline_v1_1_issue_reaudit_round3,Lead-in to the accounts receivable weakness list; incomplete standalone.
+410,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+411,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+412,ISSUE,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+413,ISSUE,0,0,effect,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+414,ISSUE,0,0,effect,worker_batch_019,guideline_v1_1_issue_reaudit_round3,
+419,OTHER,0,0,background,worker_batch_019,guideline_v1_1_issue_reaudit_round3,Background/root-cause statement about integration issues after the acquisition.
+432,REMEDIATION,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,Concrete remediation action: access to the database has already been restricted.
+435,REMEDIATION,0,0,other,worker_batch_019,guideline_v1_1_issue_reaudit_round3,Concrete remediation action: production software change access has been restricted.
+443,OTHER,0,1,background,worker_batch_019,guideline_v1_1_issue_reaudit_round3,Section header only; no standalone issue or action.
+447,OTHER,0,0,background,worker_batch_019,guideline_v1_1_issue_reaudit_round3,Background cause describing a staffing capacity constraint.
+448,OTHER,0,1,background,worker_batch_019,guideline_v1_1_issue_reaudit_round3,Lead-in phrase for the remediation steps that follow; incomplete standalone.
+458,OTHER,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,"Generic future-risk disclaimer; background only, not a concrete control issue."
+460,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+463,REMEDIATION,0,0,other,worker_batch_024,guideline_v1_1_issue_reaudit_round3,States a concrete remedial action: management conducted a broad review of processes.
+464,OTHER,0,0,effect,worker_batch_024,guideline_v1_1_issue_reaudit_round3,Reports the result of the review rather than a new weakness or action.
+465,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+466,OTHER,0,0,effect,worker_batch_024,guideline_v1_1_issue_reaudit_round3,Describes the impact of the control weakness and pre-issuance corrections.
+476,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+477,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+478,OTHER,0,0,effect,worker_batch_022,guideline_v1_1_issue_reaudit_round3,fragment says error was corrected in the financial statements; correction-status only
+484,OTHER,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,"Generic definition of material weakness, not a company-specific issue statement."
+485,ISSUE,0,0,status,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+486,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+487,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+498,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+499,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+500,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+501,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+502,OTHER,0,0,effect,worker_batch_026,guideline_v1_1_issue_reaudit_round3,Effect only corrected before issuance
+503,OTHER,0,0,effect,worker_batch_026,guideline_v1_1_issue_reaudit_round3,Effect only materiality outcome
+504,OTHER,0,0,effect,worker_batch_026,guideline_v1_1_issue_reaudit_round3,Effect only materiality statement
+505,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+509,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+510,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+511,OTHER,0,0,effect,worker_batch_026,guideline_v1_1_issue_reaudit_round3,Effect only potential impact
+512,OTHER,0,0,effect,worker_batch_026,guideline_v1_1_issue_reaudit_round3,Effect only consequence statement
+513,OTHER,0,0,effect,worker_batch_026,guideline_v1_1_issue_reaudit_round3,Effect only adverse effect
+524,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+525,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+526,ISSUE,0,0,effect,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+529,OTHER,0,1,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,Header-only remediation section title; no standalone action.
+533,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+534,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+536,OTHER,0,0,status,worker_batch_024,guideline_v1_1_issue_reaudit_round3,Describes the issue as still ongoing through Q3 2013; no remediation action.
+542,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+543,OTHER,0,0,effect,worker_batch_011,guideline_v1_1_issue_reaudit_round3,reports nonmaterial errors after the close; effect only
+545,OTHER,0,0,status,worker_batch_011,guideline_v1_1_issue_reaudit_round3,states remediation was not yet demonstrated; no concrete action
+546,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+547,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+551,OTHER,0,1,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,Lead-in announcing a list of material weaknesses; specifics follow below.
+552,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+553,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+554,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+555,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+556,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+557,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+558,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+559,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+561,OTHER,0,0,attestation,worker_batch_012,guideline_v1_1_issue_reaudit_round3,Auditor attestation / unqualified report mention.
+562,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+566,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+567,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+569,OTHER,0,1,background,worker_batch_025,guideline_v1_1_issue_reaudit_round3,Fragment only; not a standalone statement.
+570,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+571,OTHER,0,0,effect,worker_batch_025,guideline_v1_1_issue_reaudit_round3,Effect only; reports charge-offs and income impact.
+572,OTHER,0,0,effect,worker_batch_025,guideline_v1_1_issue_reaudit_round3,Effect only; reports a classification change.
+574,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+582,OTHER,0,0,status,worker_batch_025,guideline_v1_1_issue_reaudit_round3,Change-in-controls disclosure; not a remediation step.
+586,ISSUE,0,0,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,
+592,ISSUE,0,1,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,References earlier deficiencies and concludes ICFR was not effective.
+593,ISSUE,0,1,effect,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Connects the prior deficiencies to a corrective amendment.
+594,ISSUE,0,1,effect,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Describes the resulting audit adjustments.
+595,OTHER,1,1,other,worker_batch_005,guideline_v1_1_issue_reaudit_round3,"Mentions a hypothetical staffing remedy, but no concrete remediation is reported."
+602,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+603,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+605,ISSUE,0,1,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,"Section heading plus weakness-cause background, not a remediation action."
+608,REMEDIATION,0,0,other,worker_batch_004,guideline_v1_1_issue_reaudit_round3,Concrete remedial action: hired a chief accounting officer.
+627,OTHER,0,1,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,Lead-in to the following control deficiencies; needs the subsequent sentences for substance.
+629,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+630,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+631,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+632,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+633,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+634,OTHER,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,Describes misstatements that were corrected prior to issuance; effect-only.
+635,ISSUE,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+645,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+646,OTHER,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,"Restatement adjustment/result, not a control issue or remediation."
+647,OTHER,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,Effect-only statement describing where the material weakness impacts the financial statements.
+666,OTHER,0,0,status,worker_batch_007,guideline_v1_1_issue_reaudit_round3,General remediation-status statement without a concrete action.
+669,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+670,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+671,OTHER,0,1,effect,worker_batch_030,guideline_v1_1_issue_reaudit_round3,effect-only; prior context needed
+675,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+676,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+686,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+687,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+688,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+689,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+697,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+698,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+699,OTHER,0,0,status,worker_batch_002,guideline_v1_1_issue_reaudit_round3,Status/conclusion sentence only; it does not state a standalone weakness.
+708,OTHER,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,Generic statement of inherent control limitations.
+710,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+713,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+714,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+715,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+716,ISSUE,0,0,effect,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+717,ISSUE,0,0,effect,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+718,OTHER,0,1,effect,worker_batch_012,guideline_v1_1_issue_reaudit_round3,Fragment list item naming a misstatement; needs the preceding sentence.
+722,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+723,ISSUE,0,0,effect,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+724,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+725,OTHER,0,1,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,Lead-in to unspecified changes below; standalone context is incomplete.
+733,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+734,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+735,OTHER,0,0,effect,worker_batch_024,guideline_v1_1_issue_reaudit_round3,Effect-only consequence statement about potential overstatement if the weakness had not been found.
+736,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,
+738,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Direct weakness statement.
+739,OTHER,0,0,effect,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Outcome-only understatement.
+740,OTHER,0,0,effect,worker_batch_014,guideline_v1_1_issue_reaudit_round3,restatement adjustment sentence describing correction amounts not the weakness itself
+744,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Direct weakness statement.
+745,OTHER,0,0,effect,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Outcome-only overstatement.
+746,OTHER,0,0,effect,worker_batch_014,guideline_v1_1_issue_reaudit_round3,restatement adjustment sentence describing correction amounts not the weakness itself
+748,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Direct weakness statement.
+749,OTHER,0,0,effect,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Outcome-only overstatement.
+750,OTHER,0,0,effect,worker_batch_014,guideline_v1_1_issue_reaudit_round3,restatement adjustment sentence describing correction amounts not the weakness itself
+755,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+757,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+758,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+760,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+762,ISSUE,0,0,other,worker_batch_014,guideline_v1_1_issue_reaudit_round3,Direct control deficiency statement.
+768,ISSUE,0,0,background,worker_batch_005,guideline_v1_1_issue_reaudit_round3,
+769,OTHER,0,0,effect,worker_batch_005,guideline_v1_1_issue_reaudit_round3,Only the resulting tax-effect impact is described; no weakness or action is reported.
+773,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+774,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+775,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+777,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+785,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+786,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+806,ISSUE,0,0,status,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+807,OTHER,0,0,background,worker_batch_006,guideline_v1_1_issue_reaudit_round3,"Generic definition of material weakness, not a company-specific issue statement."
+808,ISSUE,0,0,status,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+813,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+814,OTHER,0,0,effect,worker_batch_016,guideline_v1_1_issue_reaudit_round3,Effect-only outcome: immaterial adjustments were corrected as an out-of-period adjustment.
+815,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+816,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+817,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+818,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+819,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+830,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+831,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+834,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+835,OTHER,0,1,other,worker_batch_011,guideline_v1_1_issue_reaudit_round3,lead-in to the specific weakness in the next sentence
+836,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+837,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+839,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+840,OTHER,0,0,effect,worker_batch_011,guideline_v1_1_issue_reaudit_round3,describes additional impact of earlier deficiencies rather than a standalone issue
+847,ISSUE,0,0,background,worker_batch_012,guideline_v1_1_issue_reaudit_round3,
+857,ISSUE,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+858,ISSUE,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+859,ISSUE,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+860,ISSUE,0,0,effect,worker_batch_001,guideline_v1_1_issue_reaudit_round3,
+861,OTHER,0,0,background,worker_batch_001,guideline_v1_1_issue_reaudit_round3,"Generic definition of a material weakness, not a company-specific issue statement."
+868,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+878,OTHER,0,1,status,worker_batch_022,guideline_v1_1_issue_reaudit_round3,lead-in to additional control deficiencies; standalone context needed
+879,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+880,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+881,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+882,OTHER,0,0,effect,worker_batch_022,guideline_v1_1_issue_reaudit_round3,effect-only outcome for the weakness
+883,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+885,OTHER,0,0,status,worker_batch_022,guideline_v1_1_issue_reaudit_round3,status-only remediation progress; no concrete action
+900,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+902,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,"Describes resulting ineffective controls and potential accounting errors, not a remediation action."
+903,ISSUE,0,0,effect,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+917,OTHER,0,0,status,worker_batch_029,guideline_v1_1_issue_reaudit_round3,remediation progress only; not a concrete action or weakness.
+919,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+920,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+921,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+922,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+923,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+924,OTHER,0,1,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,fragmented lead-in; the resulting deficiencies are listed in following sentences.
+925,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+926,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+927,ISSUE,0,0,background,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+928,OTHER,0,0,effect,worker_batch_029,guideline_v1_1_issue_reaudit_round3,no known material misstatement; effect-only outcome.
+929,ISSUE,0,0,effect,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+930,ISSUE,0,0,effect,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+938,REMEDIATION,0,0,other,worker_batch_029,guideline_v1_1_issue_reaudit_round3,concrete remediation action addressing IT-system reliance.
+945,ISSUE,0,0,effect,worker_batch_029,guideline_v1_1_issue_reaudit_round3,
+946,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+947,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+948,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+949,ISSUE,0,0,other,worker_batch_028,guideline_v1_1_issue_reaudit_round3,
+952,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+953,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,States control-process deficiencies that affect financial reporting reliability.
+954,ISSUE,0,0,background,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+955,ISSUE,0,0,effect,worker_batch_024,guideline_v1_1_issue_reaudit_round3,
+962,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+963,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+964,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+965,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+967,OTHER,0,0,background,worker_batch_007,guideline_v1_1_issue_reaudit_round3,"Acquisition-related scope exclusion; background context, not a standalone weakness statement."
+981,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+984,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+985,OTHER,0,1,background,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Header-like lead-in ending with as follows needs the next rows for substance
+986,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,Describes the control design failure behind the weakness
+987,ISSUE,0,0,effect,worker_batch_010,guideline_v1_1_issue_reaudit_round3,States resulting misstatement risk from the identified weakness
+992,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+993,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+994,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+995,OTHER,0,1,status,worker_batch_004,guideline_v1_1_issue_reaudit_round3,Management conclusion/status line based on the prior material weakness.
+996,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+1002,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+1003,OTHER,0,0,background,worker_batch_007,guideline_v1_1_issue_reaudit_round3,Historical weakness mention; no remediation or current issue action.
+1004,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+1005,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+1017,OTHER,0,0,status,worker_batch_023,guideline_v1_1_issue_reaudit_round3,Remediation progress/status only; no concrete action.
+1019,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1020,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1021,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1023,OTHER,0,0,attestation,worker_batch_023,guideline_v1_1_issue_reaudit_round3,Auditor report reference / attestation.
+1027,OTHER,0,1,background,worker_batch_023,guideline_v1_1_issue_reaudit_round3,Section lead-in introducing the listed weaknesses.
+1032,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1038,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1043,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1049,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1054,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1058,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1063,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1068,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1072,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1076,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1080,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1085,ISSUE,0,0,other,worker_batch_023,guideline_v1_1_issue_reaudit_round3,
+1116,OTHER,0,0,status,worker_batch_023,guideline_v1_1_issue_reaudit_round3,Remediation status only; no concrete action.
+1125,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+1126,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+1128,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+1131,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+1141,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+1142,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+1143,ISSUE,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,
+1144,OTHER,0,0,background,worker_batch_002,guideline_v1_1_issue_reaudit_round3,"Generic definition of material weakness, not a company-specific issue statement."
+1154,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1155,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1156,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1157,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1158,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1159,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1160,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1161,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1162,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1163,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1164,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1165,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1166,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1167,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1168,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1169,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1171,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1172,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1173,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1174,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1175,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1215,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1218,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1219,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1220,ISSUE,0,0,other,worker_batch_015,guideline_v1_1_issue_reaudit_round3,
+1221,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+1224,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+1225,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+1226,ISSUE,0,0,background,worker_batch_022,guideline_v1_1_issue_reaudit_round3,
+1237,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1238,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1239,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1240,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1241,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1242,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1243,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1244,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1245,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1246,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1247,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1248,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1249,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1250,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1251,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1252,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1253,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1281,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+1282,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+1283,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+1284,ISSUE,0,0,other,worker_batch_025,guideline_v1_1_issue_reaudit_round3,
+1292,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+1294,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+1295,ISSUE,0,0,background,worker_batch_026,guideline_v1_1_issue_reaudit_round3,
+1301,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1302,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1303,OTHER,0,0,effect,worker_batch_008,guideline_v1_1_issue_reaudit_round3,Reports no misstatement or disclosure adjustment; effect-only outcome sentence.
+1304,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1305,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1306,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1307,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1308,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1309,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1310,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1311,ISSUE,0,0,other,worker_batch_008,guideline_v1_1_issue_reaudit_round3,
+1323,OTHER,0,0,effect,worker_batch_011,guideline_v1_1_issue_reaudit_round3,reports a delayed assessment due to the restatement; effect/status only
+1324,ISSUE,0,0,background,worker_batch_011,guideline_v1_1_issue_reaudit_round3,
+1326,OTHER,0,0,attestation,worker_batch_011,guideline_v1_1_issue_reaudit_round3,audit scope limitation in the attestation report; not remediation
+1327,OTHER,0,0,attestation,worker_batch_011,guideline_v1_1_issue_reaudit_round3,auditor could not obtain sufficient evidence; attestation-related limitation
+1329,ISSUE,0,0,effect,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1331,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1333,OTHER,0,1,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,Lead-in/header introducing the deficiency list.
+1334,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1336,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1337,OTHER,0,0,status,worker_batch_009,guideline_v1_1_issue_reaudit_round3,"States the duration is unknown; status of the error, not a standalone weakness."
+1338,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1339,OTHER,0,0,effect,worker_batch_009,guideline_v1_1_issue_reaudit_round3,Effect-only immateriality assessment.
+1342,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1343,ISSUE,0,0,effect,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1344,ISSUE,0,0,effect,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1345,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1346,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1347,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1348,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1349,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1350,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1351,ISSUE,0,0,effect,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1352,ISSUE,0,0,background,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1353,ISSUE,0,0,effect,worker_batch_009,guideline_v1_1_issue_reaudit_round3,
+1362,OTHER,0,0,status,worker_batch_009,guideline_v1_1_issue_reaudit_round3,Remediation status: unable to fully implement the activity in FY2006.
+1366,OTHER,0,0,status,worker_batch_009,guideline_v1_1_issue_reaudit_round3,Status of remediation progress; ERP delay limited full remediation.
+1367,OTHER,0,0,status,worker_batch_009,guideline_v1_1_issue_reaudit_round3,Status/conclusion about remediation not fully mitigating the weakness.
+1368,OTHER,0,1,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,Truncated fragment; the object of 'did not' is missing even with surrounding context.
+1370,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1371,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1372,ISSUE,0,0,effect,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1373,ISSUE,0,0,effect,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1375,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1376,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1377,ISSUE,0,0,effect,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1378,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1382,OTHER,0,1,background,worker_batch_003,guideline_v1_1_issue_reaudit_round3,Lead-in header introducing the contributing-factor list; not a standalone weakness statement.
+1383,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1384,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1385,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1391,OTHER,0,1,background,worker_batch_003,guideline_v1_1_issue_reaudit_round3,Lead-in header introducing the account-reconciliation factor list; not a standalone weakness statement.
+1392,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1393,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1394,ISSUE,0,0,other,worker_batch_003,guideline_v1_1_issue_reaudit_round3,
+1400,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+1401,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+1402,OTHER,0,0,background,worker_batch_016,guideline_v1_1_issue_reaudit_round3,TOC/header fragment; not a standalone issue/remediation statement.
+1403,ISSUE,0,0,other,worker_batch_016,guideline_v1_1_issue_reaudit_round3,
+1406,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1407,OTHER,0,0,effect,worker_batch_030,guideline_v1_1_issue_reaudit_round3,effect-only immaterial misstatements were corrected
+1408,ISSUE,0,0,other,worker_batch_030,guideline_v1_1_issue_reaudit_round3,
+1415,OTHER,0,1,background,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Background explanation of how the assessment was determined from aggregated deficiencies.
+1416,OTHER,0,1,background,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Background cause statement attributing the deficiencies to recent acquisition growth.
+1417,OTHER,0,1,status,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Lead-in to the specific weaknesses listed below.
+1418,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+1419,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+1422,ISSUE,0,0,other,worker_batch_013,guideline_v1_1_issue_reaudit_round3,
+1423,OTHER,0,0,status,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Status-only statement that the deficiencies could not be remediated by quarter-end.
+1424,OTHER,0,0,effect,worker_batch_013,guideline_v1_1_issue_reaudit_round3,Effect-only statement that the deficiencies resulted in immaterial adjustments.
+1435,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+1436,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+1437,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+1438,ISSUE,0,0,other,worker_batch_031,guideline_v1_1_issue_reaudit_round3,
+1449,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1450,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1451,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1452,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1453,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1454,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1455,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1456,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1457,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1458,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1459,ISSUE,0,0,other,worker_batch_017,guideline_v1_1_issue_reaudit_round3,
+1476,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,States financial reporting controls were ineffective for tax accounts
+1477,ISSUE,0,0,other,worker_batch_010,guideline_v1_1_issue_reaudit_round3,States ineffective controls over tax account calculations
+1478,OTHER,0,0,effect,worker_batch_010,guideline_v1_1_issue_reaudit_round3,corrected prior to issuance; effect-only correction statement
+1488,ISSUE,0,0,background,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1489,ISSUE,0,0,other,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1490,ISSUE,0,0,other,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1491,ISSUE,0,0,effect,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1492,ISSUE,0,0,effect,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1493,ISSUE,0,0,effect,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1494,ISSUE,0,0,effect,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1495,ISSUE,0,0,background,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1496,ISSUE,0,0,effect,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1497,ISSUE,0,0,background,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1498,ISSUE,0,0,other,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1499,ISSUE,0,0,background,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1500,ISSUE,0,0,effect,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1501,ISSUE,0,0,background,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1502,ISSUE,0,0,other,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1503,ISSUE,0,0,effect,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1504,ISSUE,0,0,background,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1505,ISSUE,0,0,other,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1506,ISSUE,0,0,other,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1507,ISSUE,0,0,background,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1508,ISSUE,0,0,effect,worker_batch_006,guideline_v1_1_issue_reaudit_round3,
+1511,REMEDIATION,0,0,other,worker_batch_006,guideline_v1_1_issue_reaudit_round3,Concrete remediation step: personnel responsible for improprieties are no longer employed.
+1520,OTHER,0,0,status,worker_batch_004,guideline_v1_1_issue_reaudit_round3,"Control-effectiveness conclusion only, not a weakness statement."
+1521,OTHER,0,1,status,worker_batch_004,guideline_v1_1_issue_reaudit_round3,Status conclusion that points to the weaknesses described below.
+1525,ISSUE,0,1,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,Lead-in identifying the material weaknesses listed below.
+1526,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1527,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1528,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1529,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1530,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1531,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1532,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1538,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1542,ISSUE,0,0,background,worker_batch_004,guideline_v1_1_issue_reaudit_round3,
+1554,OTHER,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,Historical reference to previously disclosed weaknesses; no new issue statement.
+1555,ISSUE,0,0,effect,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1558,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1559,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1560,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1562,ISSUE,0,0,effect,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1563,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1564,ISSUE,0,0,effect,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1565,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1566,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1567,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1568,ISSUE,0,0,effect,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1569,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1570,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1571,ISSUE,0,0,effect,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1599,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1613,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1619,ISSUE,0,0,background,worker_batch_027,guideline_v1_1_issue_reaudit_round3,
+1630,OTHER,0,0,background,worker_batch_007,guideline_v1_1_issue_reaudit_round3,"Acquisition-related reporting scope context, not a control weakness statement."
+1631,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+1632,OTHER,0,0,effect,worker_batch_007,guideline_v1_1_issue_reaudit_round3,Immaterial error outcome; effect-only rather than a new weakness statement.
+1633,ISSUE,0,0,other,worker_batch_007,guideline_v1_1_issue_reaudit_round3,
+1634,OTHER,0,0,effect,worker_batch_028,guideline_v1_1_issue_reaudit_round3,Reports correction of prior misstatements before filing effect only.
+1635,OTHER,0,0,status,worker_batch_028,guideline_v1_1_issue_reaudit_round3,Restatement is still in process with no prior year impact status only.

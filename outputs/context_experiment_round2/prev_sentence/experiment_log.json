@@ -1,0 +1,504 @@
+{
+  "dataset_version": "token404_sample_yh.xlsx",
+  "label_version": "runtime_input",
+  "split_seed": 42,
+  "context_mode": "prev_sentence",
+  "winner": "e5_logreg",
+  "models": [
+    {
+      "model_name": "centroid_e5",
+      "embedding_model": "intfloat/e5-large-v2",
+      "classifier": "centroid",
+      "calibration_method": null,
+      "thresholds": {
+        "per_class": {
+          "ISSUE": 0.85,
+          "REMEDIATION": 0.85,
+          "OTHER": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.780673157655185,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.8316831683168316,
+            "recall": 0.7924528301886793,
+            "f1": 0.8115942028985508,
+            "support": 106
+          },
+          "REMEDIATION": {
+            "precision": 0.8301886792452831,
+            "recall": 0.88,
+            "f1": 0.8543689320388349,
+            "support": 50
+          },
+          "OTHER": {
+            "precision": 0.6666666666666666,
+            "recall": 0.6857142857142857,
+            "f1": 0.676056338028169,
+            "support": 70
+          }
+        },
+        "confusion_matrix": [
+          [
+            84,
+            2,
+            20
+          ],
+          [
+            2,
+            44,
+            4
+          ],
+          [
+            15,
+            7,
+            48
+          ]
+        ],
+        "review_rate": 1.0,
+        "auto_precision": {
+          "ISSUE": 0.0,
+          "REMEDIATION": 0.0,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 0,
+          "REMEDIATION": 0,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 2,
+            "macro_f1": 0.3333333333333333
+          },
+          "needs_context": {
+            "support": 19,
+            "macro_f1": 0.4444444444444444
+          },
+          "attestation": {
+            "support": 7,
+            "macro_f1": 0.3076923076923077
+          },
+          "short_sentence": {
+            "support": 62,
+            "macro_f1": 0.757051282051282
+          },
+          "legacy_AB": {
+            "support": 26,
+            "macro_f1": 0.6462962962962963
+          },
+          "legacy_negative": {
+            "support": 61,
+            "macro_f1": 0.5903030303030303
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.7145878603505723,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.71875,
+            "recall": 0.8518518518518519,
+            "f1": 0.7796610169491526,
+            "support": 27
+          },
+          "REMEDIATION": {
+            "precision": 0.7407407407407407,
+            "recall": 0.8695652173913043,
+            "f1": 0.8,
+            "support": 23
+          },
+          "OTHER": {
+            "precision": 0.7333333333333333,
+            "recall": 0.4583333333333333,
+            "f1": 0.5641025641025641,
+            "support": 24
+          }
+        },
+        "confusion_matrix": [
+          [
+            23,
+            2,
+            2
+          ],
+          [
+            1,
+            20,
+            2
+          ],
+          [
+            8,
+            5,
+            11
+          ]
+        ],
+        "review_rate": 1.0,
+        "auto_precision": {
+          "ISSUE": 0.0,
+          "REMEDIATION": 0.0,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 0,
+          "REMEDIATION": 0,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "needs_context": {
+            "support": 8,
+            "macro_f1": 0.21666666666666667
+          },
+          "attestation": {
+            "support": 6,
+            "macro_f1": 0.26666666666666666
+          },
+          "short_sentence": {
+            "support": 22,
+            "macro_f1": 0.5345029239766081
+          },
+          "legacy_AB": {
+            "support": 5,
+            "macro_f1": 0.5333333333333333
+          },
+          "legacy_negative": {
+            "support": 9,
+            "macro_f1": 0.546031746031746
+          }
+        }
+      }
+    },
+    {
+      "model_name": "e5_logreg",
+      "embedding_model": "intfloat/e5-large-v2",
+      "classifier": "logreg",
+      "calibration_method": "sigmoid",
+      "thresholds": {
+        "per_class": {
+          "ISSUE": 0.75,
+          "REMEDIATION": 0.8,
+          "OTHER": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.7830667094215032,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.808695652173913,
+            "recall": 0.8773584905660378,
+            "f1": 0.8416289592760181,
+            "support": 106
+          },
+          "REMEDIATION": {
+            "precision": 0.8148148148148148,
+            "recall": 0.88,
+            "f1": 0.8461538461538461,
+            "support": 50
+          },
+          "OTHER": {
+            "precision": 0.7368421052631579,
+            "recall": 0.6,
+            "f1": 0.6614173228346457,
+            "support": 70
+          }
+        },
+        "confusion_matrix": [
+          [
+            93,
+            2,
+            11
+          ],
+          [
+            2,
+            44,
+            4
+          ],
+          [
+            20,
+            8,
+            42
+          ]
+        ],
+        "review_rate": 0.6460176991150443,
+        "auto_precision": {
+          "ISSUE": 0.9180327868852459,
+          "REMEDIATION": 0.9473684210526315,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 61,
+          "REMEDIATION": 19,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 2,
+            "macro_f1": 0.3333333333333333
+          },
+          "needs_context": {
+            "support": 19,
+            "macro_f1": 0.4028985507246377
+          },
+          "attestation": {
+            "support": 7,
+            "macro_f1": 0.2777777777777778
+          },
+          "short_sentence": {
+            "support": 62,
+            "macro_f1": 0.7056171470805617
+          },
+          "legacy_AB": {
+            "support": 26,
+            "macro_f1": 0.7706552706552706
+          },
+          "legacy_negative": {
+            "support": 61,
+            "macro_f1": 0.596244131455399
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.7273863816449789,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.7058823529411765,
+            "recall": 0.8888888888888888,
+            "f1": 0.7868852459016393,
+            "support": 27
+          },
+          "REMEDIATION": {
+            "precision": 0.7692307692307693,
+            "recall": 0.8695652173913043,
+            "f1": 0.8163265306122449,
+            "support": 23
+          },
+          "OTHER": {
+            "precision": 0.7857142857142857,
+            "recall": 0.4583333333333333,
+            "f1": 0.5789473684210527,
+            "support": 24
+          }
+        },
+        "confusion_matrix": [
+          [
+            24,
+            2,
+            1
+          ],
+          [
+            1,
+            20,
+            2
+          ],
+          [
+            9,
+            4,
+            11
+          ]
+        ],
+        "review_rate": 0.6756756756756757,
+        "auto_precision": {
+          "ISSUE": 0.875,
+          "REMEDIATION": 0.875,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 16,
+          "REMEDIATION": 8,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "needs_context": {
+            "support": 8,
+            "macro_f1": 0.21666666666666667
+          },
+          "attestation": {
+            "support": 6,
+            "macro_f1": 0.26666666666666666
+          },
+          "short_sentence": {
+            "support": 22,
+            "macro_f1": 0.5345029239766081
+          },
+          "legacy_AB": {
+            "support": 5,
+            "macro_f1": 0.5333333333333333
+          },
+          "legacy_negative": {
+            "support": 9,
+            "macro_f1": 0.6666666666666666
+          }
+        }
+      }
+    },
+    {
+      "model_name": "bge_svm",
+      "embedding_model": "BAAI/bge-base-en-v1.5",
+      "classifier": "linear_svm",
+      "calibration_method": "sigmoid",
+      "thresholds": {
+        "per_class": {
+          "ISSUE": 0.75,
+          "REMEDIATION": 0.65,
+          "OTHER": 0.85
+        },
+        "default_prob": 0.85,
+        "global_margin": 0.2
+      },
+      "cv_metrics": {
+        "macro_f1": 0.7454976660635145,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.7948717948717948,
+            "recall": 0.8773584905660378,
+            "f1": 0.8340807174887892,
+            "support": 106
+          },
+          "REMEDIATION": {
+            "precision": 0.8043478260869565,
+            "recall": 0.74,
+            "f1": 0.7708333333333334,
+            "support": 50
+          },
+          "OTHER": {
+            "precision": 0.6666666666666666,
+            "recall": 0.6,
+            "f1": 0.631578947368421,
+            "support": 70
+          }
+        },
+        "confusion_matrix": [
+          [
+            93,
+            2,
+            11
+          ],
+          [
+            3,
+            37,
+            10
+          ],
+          [
+            21,
+            7,
+            42
+          ]
+        ],
+        "review_rate": 0.5663716814159292,
+        "auto_precision": {
+          "ISSUE": 0.9014084507042254,
+          "REMEDIATION": 0.9259259259259259,
+          "OTHER": 0.0
+        },
+        "auto_coverage": {
+          "ISSUE": 71,
+          "REMEDIATION": 27,
+          "OTHER": 0
+        },
+        "slice_metrics": {
+          "mixed_AB": {
+            "support": 2,
+            "macro_f1": 0.3333333333333333
+          },
+          "needs_context": {
+            "support": 19,
+            "macro_f1": 0.4028985507246377
+          },
+          "attestation": {
+            "support": 7,
+            "macro_f1": 0.2777777777777778
+          },
+          "short_sentence": {
+            "support": 62,
+            "macro_f1": 0.7029982363315698
+          },
+          "legacy_AB": {
+            "support": 26,
+            "macro_f1": 0.7706552706552706
+          },
+          "legacy_negative": {
+            "support": 61,
+            "macro_f1": 0.5041845274545825
+          }
+        }
+      },
+      "test_metrics": {
+        "macro_f1": 0.6599073548875024,
+        "per_class": {
+          "ISSUE": {
+            "precision": 0.6486486486486487,
+            "recall": 0.8888888888888888,
+            "f1": 0.75,
+            "support": 27
+          },
+          "REMEDIATION": {
+            "precision": 0.85,
+            "recall": 0.7391304347826086,
+            "f1": 0.7906976744186046,
+            "support": 23
+          },
+          "OTHER": {
+            "precision": 0.5294117647058824,
+            "recall": 0.375,
+            "f1": 0.43902439024390244,
+            "support": 24
+          }
+        },
+        "confusion_matrix": [
+          [
+            24,
+            0,
+            3
+          ],
+          [
+            1,
+            17,
+            5
+          ],
+          [
+            12,
+            3,
+            9
+          ]
+        ],
+        "review_rate": 0.6621621621621622,
+        "auto_precision": {
+          "ISSUE": 0.9230769230769231,
+          "REMEDIATION": 0.9090909090909091,
+          "OTHER": 1.0
+        },
+        "auto_coverage": {
+          "ISSUE": 13,
+          "REMEDIATION": 11,
+          "OTHER": 1
+        },
+        "slice_metrics": {
+          "needs_context": {
+            "support": 8,
+            "macro_f1": 0.2814814814814815
+          },
+          "attestation": {
+            "support": 6,
+            "macro_f1": 0.16666666666666666
+          },
+          "short_sentence": {
+            "support": 22,
+            "macro_f1": 0.6
+          },
+          "legacy_AB": {
+            "support": 5,
+            "macro_f1": 0.5333333333333333
+          },
+          "legacy_negative": {
+            "support": 9,
+            "macro_f1": 0.6793650793650793
+          }
+        }
+      }
+    }
+  ]
+}
