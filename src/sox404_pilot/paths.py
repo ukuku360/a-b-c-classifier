@@ -30,6 +30,9 @@ ROUND2_STAGE_A_BLIND_REVIEW = ANNOTATIONS_DIR / "round2_stage_a_blind_review.csv
 ROUND2_STAGE_B_ANNOTATIONS = ANNOTATIONS_DIR / "round2_stage_b_annotations.csv"
 ROUND2_ADJUDICATED_ANNOTATIONS = ANNOTATIONS_DIR / "round2_adjudicated_annotations.csv"
 MASTER_ANNOTATIONS_FULL_ROUND3 = ANNOTATIONS_DIR / "master_annotations_full_round3.csv"
+ROUND3_ISSUE_EXPORT = ANNOTATIONS_DIR / "round3_issue.csv"
+ROUND3_REMEDIATION_EXPORT = ANNOTATIONS_DIR / "round3_remediation.csv"
+ROUND3_OTHER_EXPORT = ANNOTATIONS_DIR / "round3_other.csv"
 
 ANNOTATION_GUIDELINES_ROUND1 = DOCS_DIR / "annotation_guidelines_round1.md"
 ANNOTATION_GUIDELINES_ROUND2 = DOCS_DIR / "annotation_guidelines_round2.md"
