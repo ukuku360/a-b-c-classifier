@@ -14,6 +14,14 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from sox404_pilot.constants import C_SUBTYPES, LABELS, normalize_label
+from sox404_pilot.paths import (
+    MASTER_ANNOTATIONS_FULL_ROUND3,
+    MASTER_ANNOTATIONS_WORKING,
+    ROUND3_ISSUE_OVERLAY,
+    ROUND3_OTHER_OVERLAY,
+    ROUND3_REMEDIATION_OVERLAY,
+    SENTENCES_CANONICAL,
+)
 
 
 ANNOTATION_COLUMNS = [
@@ -32,27 +40,27 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Merge round-3 re-audit overlays into a new master annotation file.")
     parser.add_argument(
         "--issue-overlay",
-        default=str(PROJECT_ROOT / "outputs" / "issue_reaudit_round3" / "issue_reaudit_overlay.csv"),
+        default=str(ROUND3_ISSUE_OVERLAY),
     )
     parser.add_argument(
         "--remediation-overlay",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3" / "remediation_reaudit_overlay.csv"),
+        default=str(ROUND3_REMEDIATION_OVERLAY),
     )
     parser.add_argument(
         "--other-overlay",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3" / "other_reaudit_overlay.csv"),
+        default=str(ROUND3_OTHER_OVERLAY),
     )
     parser.add_argument(
         "--sentences",
-        default=str(PROJECT_ROOT / "data" / "sentences.csv"),
+        default=str(SENTENCES_CANONICAL),
     )
     parser.add_argument(
         "--master-annotations",
-        default=str(PROJECT_ROOT / "data" / "master_annotations.csv"),
+        default=str(MASTER_ANNOTATIONS_WORKING),
     )
     parser.add_argument(
         "--output-file",
-        default=str(PROJECT_ROOT / "data" / "master_annotations_round3_reaudit.csv"),
+        default=str(MASTER_ANNOTATIONS_FULL_ROUND3),
     )
     return parser.parse_args()
 

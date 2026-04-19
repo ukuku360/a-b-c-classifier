@@ -13,6 +13,7 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from sox404_pilot.constants import OTHER_LABEL
+from sox404_pilot.paths import PILOT_ROUND2_WINNER_PREDICTIONS, ROUND3_OTHER_REAUDIT_DIR
 
 
 ANNOTATION_COLUMNS = [
@@ -30,11 +31,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Prepare batch CSVs for OTHER re-audit review.")
     parser.add_argument(
         "--winner-predictions",
-        default=str(PROJECT_ROOT / "outputs" / "pilot_run_round2" / "winner_predictions.csv"),
+        default=str(PILOT_ROUND2_WINNER_PREDICTIONS),
     )
     parser.add_argument(
         "--output-dir",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3"),
+        default=str(ROUND3_OTHER_REAUDIT_DIR),
     )
     parser.add_argument("--target-batch-size", type=int, default=25)
     parser.add_argument(

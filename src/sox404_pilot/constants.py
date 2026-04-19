@@ -1,7 +1,6 @@
-from pathlib import Path
+from .paths import PROJECT_ROOT, SOURCE_WORKBOOK
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-SOURCE_XLSX = PROJECT_ROOT / "token404_sample_yh.xlsx"
+SOURCE_XLSX = SOURCE_WORKBOOK
 
 ISSUE_LABEL = "ISSUE"
 REMEDIATION_LABEL = "REMEDIATION"

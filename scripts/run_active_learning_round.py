@@ -15,20 +15,28 @@ if str(SRC_ROOT) not in sys.path:
 
 from sox404_pilot.active_learning import select_active_learning_batch
 from sox404_pilot.constants import LABELS, normalize_label
+from sox404_pilot.paths import (
+    MASTER_ANNOTATIONS_WORKING,
+    PILOT_ROUND1_ACTIVE_LEARNING_BATCH,
+    PILOT_ROUND1_WINNER_EMBEDDINGS,
+    PILOT_ROUND1_WINNER_PREDICTIONS,
+    SEED_ANNOTATIONS_ROUND1,
+    SENTENCES_CANONICAL,
+)
 
-DEFAULT_ANNOTATIONS = PROJECT_ROOT / "data" / "master_annotations.csv"
+DEFAULT_ANNOTATIONS = MASTER_ANNOTATIONS_WORKING
 if not DEFAULT_ANNOTATIONS.exists():
-    DEFAULT_ANNOTATIONS = PROJECT_ROOT / "data" / "seed_annotations_v1.csv"
+    DEFAULT_ANNOTATIONS = SEED_ANNOTATIONS_ROUND1
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Select the next active-learning batch.")
-    parser.add_argument("--sentences", default=str(PROJECT_ROOT / "data" / "sentences.csv"))
+    parser.add_argument("--sentences", default=str(SENTENCES_CANONICAL))
     parser.add_argument("--annotations", default=str(DEFAULT_ANNOTATIONS))
-    parser.add_argument("--winner-predictions", default=str(PROJECT_ROOT / "outputs" / "pilot_run" / "winner_predictions.csv"))
+    parser.add_argument("--winner-predictions", default=str(PILOT_ROUND1_WINNER_PREDICTIONS))
     parser.add_argument("--alternate-predictions", default="")
-    parser.add_argument("--winner-embeddings", default=str(PROJECT_ROOT / "outputs" / "pilot_run" / "winner_embeddings.npy"))
-    parser.add_argument("--output-file", default=str(PROJECT_ROOT / "outputs" / "pilot_run" / "active_learning_batch_round1.csv"))
+    parser.add_argument("--winner-embeddings", default=str(PILOT_ROUND1_WINNER_EMBEDDINGS))
+    parser.add_argument("--output-file", default=str(PILOT_ROUND1_ACTIVE_LEARNING_BATCH))
     parser.add_argument("--batch-size", type=int, default=100)
     parser.add_argument("--random-state", type=int, default=42)
     return parser.parse_args()

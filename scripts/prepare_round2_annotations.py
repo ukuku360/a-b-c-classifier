@@ -13,6 +13,14 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from sox404_pilot.constants import LABELS, normalize_label
+from sox404_pilot.paths import (
+    MASTER_ANNOTATIONS_WORKING,
+    PILOT_ROUND1_ACTIVE_LEARNING_BATCH,
+    ROUND2_STAGE_A_ANNOTATIONS,
+    ROUND2_STAGE_A_BLIND_REVIEW,
+    ROUND2_STAGE_B_ANNOTATIONS,
+    SEED_ANNOTATIONS_ROUND1,
+)
 
 
 ANNOTATION_COLUMNS = [
@@ -29,12 +37,12 @@ ANNOTATION_COLUMNS = [
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Prepare round-2 annotation files from the active-learning batch.")
-    parser.add_argument("--seed-annotations", default=str(PROJECT_ROOT / "data" / "seed_annotations_v1.csv"))
-    parser.add_argument("--active-learning-batch", default=str(PROJECT_ROOT / "outputs" / "pilot_run" / "active_learning_batch_round1.csv"))
-    parser.add_argument("--master-out", default=str(PROJECT_ROOT / "data" / "master_annotations.csv"))
-    parser.add_argument("--stage-a-out", default=str(PROJECT_ROOT / "data" / "round2_stage_a_pass1.csv"))
-    parser.add_argument("--stage-a-blind-out", default=str(PROJECT_ROOT / "data" / "round2_stage_a_blind_pass2.csv"))
-    parser.add_argument("--stage-b-out", default=str(PROJECT_ROOT / "data" / "round2_stage_b_pass1.csv"))
+    parser.add_argument("--seed-annotations", default=str(SEED_ANNOTATIONS_ROUND1))
+    parser.add_argument("--active-learning-batch", default=str(PILOT_ROUND1_ACTIVE_LEARNING_BATCH))
+    parser.add_argument("--master-out", default=str(MASTER_ANNOTATIONS_WORKING))
+    parser.add_argument("--stage-a-out", default=str(ROUND2_STAGE_A_ANNOTATIONS))
+    parser.add_argument("--stage-a-blind-out", default=str(ROUND2_STAGE_A_BLIND_REVIEW))
+    parser.add_argument("--stage-b-out", default=str(ROUND2_STAGE_B_ANNOTATIONS))
     parser.add_argument("--stage-a-size", type=int, default=50)
     parser.add_argument("--double-check-size", type=int, default=30)
     parser.add_argument("--force", action="store_true")

@@ -14,6 +14,15 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from sox404_pilot.constants import C_SUBTYPES, LABELS, OTHER_LABEL, normalize_label
+from sox404_pilot.paths import (
+    ROUND3_OTHER_BATCH_MANIFEST,
+    ROUND3_OTHER_BATCH_SUMMARY,
+    ROUND3_OTHER_MERGED,
+    ROUND3_OTHER_OVERLAY,
+    ROUND3_OTHER_REAUDIT_DIR,
+    ROUND3_OTHER_SUMMARY_CSV,
+    ROUND3_OTHER_SUMMARY_JSON,
+)
 
 
 ANNOTATION_COLUMNS = [
@@ -31,31 +40,31 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Validate and merge OTHER re-audit batch CSVs.")
     parser.add_argument(
         "--batch-manifest",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3" / "manifests" / "batch_manifest.csv"),
+        default=str(ROUND3_OTHER_BATCH_MANIFEST),
     )
     parser.add_argument(
         "--batch-summary",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3" / "manifests" / "batch_summary.csv"),
+        default=str(ROUND3_OTHER_BATCH_SUMMARY),
     )
     parser.add_argument(
         "--output-dir",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3"),
+        default=str(ROUND3_OTHER_REAUDIT_DIR),
     )
     parser.add_argument(
         "--merged-file",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3" / "other_reaudit_merged.csv"),
+        default=str(ROUND3_OTHER_MERGED),
     )
     parser.add_argument(
         "--overlay-file",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3" / "other_reaudit_overlay.csv"),
+        default=str(ROUND3_OTHER_OVERLAY),
     )
     parser.add_argument(
         "--summary-json",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3" / "other_reaudit_summary.json"),
+        default=str(ROUND3_OTHER_SUMMARY_JSON),
     )
     parser.add_argument(
         "--summary-csv",
-        default=str(PROJECT_ROOT / "outputs" / "other_reaudit_round3" / "other_reaudit_summary.csv"),
+        default=str(ROUND3_OTHER_SUMMARY_CSV),
     )
     parser.add_argument("--expected-total", type=int, default=465)
     return parser.parse_args()

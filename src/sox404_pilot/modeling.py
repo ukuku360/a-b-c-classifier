@@ -28,6 +28,7 @@ from .constants import (
 )
 from .data import make_doc_table, text_view
 from .embeddings import TransformerEmbedder, cache_key, save_embeddings
+from .paths import PROJECT_ROOT, SOURCE_WORKBOOK
 
 
 @dataclass
@@ -489,7 +490,7 @@ def write_experiment_log(
     random_state: int,
 ) -> None:
     payload = {
-        "dataset_version": "token404_sample_yh.xlsx",
+        "dataset_version": str(SOURCE_WORKBOOK.relative_to(PROJECT_ROOT)),
         "label_version": "runtime_input",
         "split_seed": random_state,
         "context_mode": context_mode,

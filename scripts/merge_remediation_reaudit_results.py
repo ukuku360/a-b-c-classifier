@@ -14,6 +14,17 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from sox404_pilot.constants import C_SUBTYPES, LABELS, REMEDIATION_LABEL, normalize_label
+from sox404_pilot.paths import (
+    MASTER_ANNOTATIONS_WORKING,
+    ROUND3_REMEDIATION_BATCH_MANIFEST,
+    ROUND3_REMEDIATION_BATCH_SUMMARY,
+    ROUND3_REMEDIATION_MASTER_OVERLAP,
+    ROUND3_REMEDIATION_MERGED,
+    ROUND3_REMEDIATION_OVERLAY,
+    ROUND3_REMEDIATION_REAUDIT_DIR,
+    ROUND3_REMEDIATION_SUMMARY_CSV,
+    ROUND3_REMEDIATION_SUMMARY_JSON,
+)
 
 
 ANNOTATION_COLUMNS = [
@@ -31,39 +42,39 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Validate and merge REMEDIATION re-audit batch CSVs.")
     parser.add_argument(
         "--batch-manifest",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3" / "manifests" / "batch_manifest.csv"),
+        default=str(ROUND3_REMEDIATION_BATCH_MANIFEST),
     )
     parser.add_argument(
         "--batch-summary",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3" / "manifests" / "batch_summary.csv"),
+        default=str(ROUND3_REMEDIATION_BATCH_SUMMARY),
     )
     parser.add_argument(
         "--output-dir",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3"),
+        default=str(ROUND3_REMEDIATION_REAUDIT_DIR),
     )
     parser.add_argument(
         "--merged-file",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3" / "remediation_reaudit_merged.csv"),
+        default=str(ROUND3_REMEDIATION_MERGED),
     )
     parser.add_argument(
         "--overlay-file",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3" / "remediation_reaudit_overlay.csv"),
+        default=str(ROUND3_REMEDIATION_OVERLAY),
     )
     parser.add_argument(
         "--summary-json",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3" / "remediation_reaudit_summary.json"),
+        default=str(ROUND3_REMEDIATION_SUMMARY_JSON),
     )
     parser.add_argument(
         "--summary-csv",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3" / "remediation_reaudit_summary.csv"),
+        default=str(ROUND3_REMEDIATION_SUMMARY_CSV),
     )
     parser.add_argument(
         "--master-annotations",
-        default=str(PROJECT_ROOT / "data" / "master_annotations.csv"),
+        default=str(MASTER_ANNOTATIONS_WORKING),
     )
     parser.add_argument(
         "--master-comparison-file",
-        default=str(PROJECT_ROOT / "outputs" / "remediation_reaudit_round3" / "master_overlap_comparison.csv"),
+        default=str(ROUND3_REMEDIATION_MASTER_OVERLAP),
     )
     return parser.parse_args()
 

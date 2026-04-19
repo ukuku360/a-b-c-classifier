@@ -15,19 +15,26 @@ if str(SRC_ROOT) not in sys.path:
 
 from sox404_pilot.data import build_annotation_frame
 from sox404_pilot.modeling import run_model_suite
+from sox404_pilot.paths import (
+    CONTEXT_EXPERIMENT_ROUND1_DIR,
+    DOC_SPLITS_FIXED,
+    MASTER_ANNOTATIONS_WORKING,
+    SEED_ANNOTATIONS_ROUND1,
+    SENTENCES_CANONICAL,
+)
 
-DEFAULT_ANNOTATIONS = PROJECT_ROOT / "data" / "master_annotations.csv"
+DEFAULT_ANNOTATIONS = MASTER_ANNOTATIONS_WORKING
 if not DEFAULT_ANNOTATIONS.exists():
-    DEFAULT_ANNOTATIONS = PROJECT_ROOT / "data" / "seed_annotations_v1.csv"
+    DEFAULT_ANNOTATIONS = SEED_ANNOTATIONS_ROUND1
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Compare sentence-only and prev-sentence context variants.")
-    parser.add_argument("--sentences", default=str(PROJECT_ROOT / "data" / "sentences.csv"))
-    parser.add_argument("--doc-splits", default=str(PROJECT_ROOT / "data" / "doc_splits.csv"))
+    parser.add_argument("--sentences", default=str(SENTENCES_CANONICAL))
+    parser.add_argument("--doc-splits", default=str(DOC_SPLITS_FIXED))
     parser.add_argument("--annotations", default=str(DEFAULT_ANNOTATIONS))
     parser.add_argument("--label-source", choices=["annotations", "legacy_proxy"], default="annotations")
-    parser.add_argument("--output-dir", default=str(PROJECT_ROOT / "outputs" / "context_experiment"))
+    parser.add_argument("--output-dir", default=str(CONTEXT_EXPERIMENT_ROUND1_DIR))
     parser.add_argument("--random-state", type=int, default=42)
     return parser.parse_args()
 

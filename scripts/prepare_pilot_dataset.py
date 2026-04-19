@@ -12,16 +12,24 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from sox404_pilot.data import load_raw_workbook, make_doc_splits, normalize_sentences, sample_seed_annotations
+from sox404_pilot.paths import (
+    BOUNDARY_RELABEL_QUEUE_ROUND1,
+    DOC_SPLITS_FIXED,
+    PILOT_DATASET_SUMMARY,
+    SEED_ANNOTATIONS_ROUND1,
+    SENTENCES_CANONICAL,
+    SOURCE_WORKBOOK,
+)
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Prepare canonical tables and seed annotation queues.")
-    parser.add_argument("--input", default=str(PROJECT_ROOT / "token404_sample_yh.xlsx"))
-    parser.add_argument("--sentences-out", default=str(PROJECT_ROOT / "data" / "sentences.csv"))
-    parser.add_argument("--annotations-out", default=str(PROJECT_ROOT / "data" / "seed_annotations_v1.csv"))
-    parser.add_argument("--blind-relabel-out", default=str(PROJECT_ROOT / "data" / "boundary_relabel_queue_v1.csv"))
-    parser.add_argument("--doc-splits-out", default=str(PROJECT_ROOT / "data" / "doc_splits.csv"))
-    parser.add_argument("--summary-out", default=str(PROJECT_ROOT / "data" / "pilot_summary.json"))
+    parser.add_argument("--input", default=str(SOURCE_WORKBOOK))
+    parser.add_argument("--sentences-out", default=str(SENTENCES_CANONICAL))
+    parser.add_argument("--annotations-out", default=str(SEED_ANNOTATIONS_ROUND1))
+    parser.add_argument("--blind-relabel-out", default=str(BOUNDARY_RELABEL_QUEUE_ROUND1))
+    parser.add_argument("--doc-splits-out", default=str(DOC_SPLITS_FIXED))
+    parser.add_argument("--summary-out", default=str(PILOT_DATASET_SUMMARY))
     parser.add_argument("--random-state", type=int, default=42)
     return parser.parse_args()
 
